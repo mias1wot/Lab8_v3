@@ -10,14 +10,14 @@ class User
             int countFloors,
             List<Integer> passengerGenerationSpeedForEachFloor,
             int countLift,
-            List<LiftStrategy> strategies,
+            List<Integer> strategiesNumbers,
             List<Integer> speedForEachLift,
             List<Double> weightCapacityForEachLift,
             List<Integer> passengersCapacityForEachLift
     ){
         BuildingManager buildingManager = new BuildingManager();
         buildingManager.buildFloors(countFloors, passengerGenerationSpeedForEachFloor);
-        buildingManager.buildLifts(countLift, strategies, speedForEachLift,
+        buildingManager.buildLifts(countLift, strategiesNumbers, speedForEachLift,
                 weightCapacityForEachLift, passengersCapacityForEachLift);
 
         this.building = buildingManager.getBuilding();

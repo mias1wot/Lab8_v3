@@ -10,10 +10,9 @@ public class LiftManager implements Runnable {
     List<Integer> floorsWithWaitingPassengersQueue;
     ThreadState state;
 
-    public LiftManager(Building building, Lift lift, LiftStrategy liftStrategy){
+    public LiftManager(Building building, Lift lift){
         this.building = building;
         this.lift = lift;
-        this.liftStrategy = liftStrategy;
         logger = Logger.getInstance();
         floorsWithWaitingPassengersQueue = new ArrayList<Integer> (building.getCountFloor());
         state = ThreadState.Paused;

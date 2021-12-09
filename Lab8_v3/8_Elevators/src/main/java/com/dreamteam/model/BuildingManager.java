@@ -1,5 +1,7 @@
 package com.dreamteam.model;
 
+import com.dreamteam.model.LiftStrategy;
+
 import java.util.*;
 
 class BuildingManager
@@ -26,11 +28,12 @@ class BuildingManager
 
 
     public void buildLifts(int countLift,
-                           List<LiftStrategy> strategies,
+                           List<Integer> strategiesNumbers,
                            List<Integer> speedForEachLift,
                            List<Double> weightCapacityForEachLift,
                            List<Integer> passengersCapacityForEachLift)
     {
+        LiftStrategy strategy = null;
         for(int i = 0; i < countLift; ++i)
         {
             Lift lift = new Lift(
@@ -41,7 +44,18 @@ class BuildingManager
                     speedForEachLift.get(i)
             );
 
-            LiftManager liftManager = new LiftManager(this.building, lift, strategies.get(i));
+            LiftManager liftManager = new LiftManager(this.building, lift);
+
+            switch(strategiesNumbers.get(i)) {
+                case 0:
+                    strategy = new MiddlePickingUpStrategy(liftManager);
+                    break;
+                case 1:
+                    strategy = new IgnoringMiddlePickingUpStrategy(liftManager);
+                    break;
+            }
+
+            liftManager.setLiftStategy(strategy);
             this.building.addLift(
                 liftManager 
             );
