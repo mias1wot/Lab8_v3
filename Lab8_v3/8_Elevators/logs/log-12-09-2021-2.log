@@ -1,0 +1,1363 @@
+2021.12.09 08:51:30.714 [INFO] com.dreamteam.model2.Elevator: No users left Elevator4
+2021.12.09 08:51:30.723 [INFO] com.dreamteam.model2.Floor: Queue at floor2, elevator3, queue size: 1
+2021.12.09 08:51:30.714 [INFO] com.dreamteam.model2.Elevator: No users left Elevator0
+2021.12.09 08:51:30.714 [INFO] com.dreamteam.model2.Elevator: No users left Elevator2
+2021.12.09 08:51:30.725 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:30.725 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:30.725 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:30.714 [INFO] com.dreamteam.model2.Elevator: No users left Elevator3
+2021.12.09 08:51:30.714 [INFO] com.dreamteam.model2.Elevator: No users left Elevator1
+2021.12.09 08:51:30.744 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:30.744 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:30.814 [INFO] com.dreamteam.model2.Elevator: No users left Elevator4
+2021.12.09 08:51:30.814 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:30.814 [INFO] com.dreamteam.model2.Elevator: No users left Elevator0
+2021.12.09 08:51:30.814 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:30.830 [INFO] com.dreamteam.model2.Elevator: No users left Elevator3
+2021.12.09 08:51:30.830 [INFO] com.dreamteam.model2.Elevator: No users left Elevator1
+2021.12.09 08:51:30.830 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:30.830 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:30.830 [INFO] com.dreamteam.model2.Elevator: No users left Elevator2
+2021.12.09 08:51:30.831 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:30.831 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 0, Start floor: 2, Destination floor: 3, ElevatorA3
+2021.12.09 08:51:30.832 [INFO] com.dreamteam.model2.Floor: Queue at floor2, elevator4, queue size: 1
+2021.12.09 08:51:30.833 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 1, Start floor: 2, Destination floor: 28, ElevatorA4
+2021.12.09 08:51:30.834 [INFO] com.dreamteam.model2.Floor: Queue at floor20, elevator3, queue size: 1
+2021.12.09 08:51:30.838 [INFO] com.dreamteam.model2.Elevator: Elevator4 goes to user Passenger1
+2021.12.09 08:51:30.839 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 2, Start floor: 20, Destination floor: 17, ElevatorA3
+2021.12.09 08:51:30.840 [INFO] com.dreamteam.model2.Elevator: Elevator3 goes to user Passenger0
+2021.12.09 08:51:30.840 [INFO] com.dreamteam.model2.Floor: Queue at floor17, elevator3, queue size: 1
+2021.12.09 08:51:30.851 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 3, Start floor: 17, Destination floor: 15, ElevatorA3
+2021.12.09 08:51:30.852 [INFO] com.dreamteam.model2.Floor: Queue at floor23, elevator3, queue size: 1
+2021.12.09 08:51:30.853 [INFO] com.dreamteam.model2.Elevator: User Passenger2 added to Elevator3 waiting list, size: 2
+2021.12.09 08:51:30.853 [INFO] com.dreamteam.model2.Elevator: User Passenger3 added to Elevator3 waiting list, size: 3
+2021.12.09 08:51:30.854 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 4, Start floor: 23, Destination floor: 8, ElevatorA3
+2021.12.09 08:51:30.855 [INFO] com.dreamteam.model2.Elevator: User Passenger4 added to Elevator3 waiting list, size: 4
+2021.12.09 08:51:30.855 [INFO] com.dreamteam.model2.Floor: Queue at floor11, elevator3, queue size: 1
+2021.12.09 08:51:30.857 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 5, Start floor: 11, Destination floor: 23, ElevatorA3
+2021.12.09 08:51:30.857 [INFO] com.dreamteam.model2.Elevator: User Passenger5 added to Elevator3 waiting list, size: 5
+2021.12.09 08:51:30.858 [INFO] com.dreamteam.model2.Floor: Queue at floor9, elevator3, queue size: 1
+2021.12.09 08:51:30.861 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 6, Start floor: 9, Destination floor: 24, ElevatorA3
+2021.12.09 08:51:30.861 [INFO] com.dreamteam.model2.Elevator: User Passenger6 added to Elevator3 waiting list, size: 6
+2021.12.09 08:51:30.890 [INFO] com.dreamteam.model2.Floor: Queue at floor12, elevator3, queue size: 1
+2021.12.09 08:51:30.892 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 7, Start floor: 12, Destination floor: 14, ElevatorA3
+2021.12.09 08:51:30.892 [INFO] com.dreamteam.model2.Elevator: User Passenger7 added to Elevator3 waiting list, size: 7
+2021.12.09 08:51:30.905 [INFO] com.dreamteam.model2.Elevator: No users left Elevator0
+2021.12.09 08:51:30.905 [INFO] com.dreamteam.model2.Elevator: No users left Elevator4
+2021.12.09 08:51:30.905 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:30.916 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA4 goes to floor 2, direction: UP
+2021.12.09 08:51:30.921 [INFO] com.dreamteam.model2.Elevator: No users left Elevator1
+2021.12.09 08:51:30.921 [INFO] com.dreamteam.model2.Elevator: No users left Elevator3
+2021.12.09 08:51:30.921 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:30.921 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA3 goes to floor 2, direction: UP
+2021.12.09 08:51:30.921 [INFO] com.dreamteam.model2.Elevator: No users left Elevator2
+2021.12.09 08:51:30.922 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:30.937 [INFO] com.dreamteam.model2.Floor: Queue at floor5, elevator3, queue size: 1
+2021.12.09 08:51:30.938 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 8, Start floor: 5, Destination floor: 21, ElevatorA3
+2021.12.09 08:51:30.999 [INFO] com.dreamteam.model2.Elevator: No users left Elevator0
+2021.12.09 08:51:30.999 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:31.015 [INFO] com.dreamteam.model2.Elevator: No users left Elevator1
+2021.12.09 08:51:31.015 [INFO] com.dreamteam.model2.Elevator: No users left Elevator2
+2021.12.09 08:51:31.015 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:31.015 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:31.014 [INFO] com.dreamteam.model2.Floor: Queue at floor13, elevator3, queue size: 1
+2021.12.09 08:51:31.017 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 9, Start floor: 13, Destination floor: 29, ElevatorA3
+2021.12.09 08:51:31.076 [INFO] com.dreamteam.model2.Floor: Queue at floor25, elevator3, queue size: 1
+2021.12.09 08:51:31.079 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 10, Start floor: 25, Destination floor: 1, ElevatorA3
+2021.12.09 08:51:31.093 [INFO] com.dreamteam.model2.Elevator: No users left Elevator0
+2021.12.09 08:51:31.095 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:31.108 [INFO] com.dreamteam.model2.Elevator: Elevator4, current floor: 2
+2021.12.09 08:51:31.108 [INFO] com.dreamteam.model2.Elevator: Elevator3, current floor: 2
+2021.12.09 08:51:31.108 [INFO] com.dreamteam.model2.Elevator: No users left Elevator1
+2021.12.09 08:51:31.108 [INFO] com.dreamteam.model2.Elevator: No users left Elevator2
+2021.12.09 08:51:31.109 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:31.109 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:31.109 [INFO] com.dreamteam.model2.Elevator: User Passenger10 added to Elevator3 waiting list, size: 7
+2021.12.09 08:51:31.124 [INFO] com.dreamteam.model2.Elevator: User Passenger9 added to Elevator3 waiting list, size: 8
+2021.12.09 08:51:31.125 [INFO] com.dreamteam.model2.Elevator: User Passenger8 added to Elevator3 waiting list, size: 9
+2021.12.09 08:51:31.125 [INFO] com.dreamteam.model2.Floor: Queue at floor26, elevator3, queue size: 1
+2021.12.09 08:51:31.128 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 11, Start floor: 26, Destination floor: 17, ElevatorA3
+2021.12.09 08:51:31.129 [INFO] com.dreamteam.model2.Elevator: User Passenger11 added to Elevator3 waiting list, size: 10
+2021.12.09 08:51:31.174 [INFO] com.dreamteam.model2.Floor: Queue at floor23, elevator4, queue size: 1
+2021.12.09 08:51:31.175 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 12, Start floor: 23, Destination floor: 19, ElevatorA4
+2021.12.09 08:51:31.175 [INFO] com.dreamteam.model2.Elevator: User Passenger12 added to Elevator4 waiting list, size: 1
+2021.12.09 08:51:31.186 [INFO] com.dreamteam.model2.Elevator: No users left Elevator0
+2021.12.09 08:51:31.186 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:31.202 [INFO] com.dreamteam.model2.Elevator: No users left Elevator2
+2021.12.09 08:51:31.202 [INFO] com.dreamteam.model2.Elevator: No users left Elevator1
+2021.12.09 08:51:31.202 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:31.202 [INFO] com.dreamteam.model2.Elevator: No users left Elevator3
+2021.12.09 08:51:31.202 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:31.202 [INFO] com.dreamteam.model2.Elevator: No users left Elevator4
+2021.12.09 08:51:31.203 [INFO] com.dreamteam.model2.Elevator: User Passenger0 entered Elevator3, active users: 1
+2021.12.09 08:51:31.203 [INFO] com.dreamteam.model2.Elevator: User Passenger1 entered Elevator4, active users: 1
+2021.12.09 08:51:31.212 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA3 goes to floor 3, direction: UP
+2021.12.09 08:51:31.214 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA4 goes to floor 28, direction: UP
+2021.12.09 08:51:31.254 [INFO] com.dreamteam.model2.Floor: Queue at floor0, elevator3, queue size: 1
+2021.12.09 08:51:31.255 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 13, Start floor: 0, Destination floor: 21, ElevatorA3
+2021.12.09 08:51:31.265 [INFO] com.dreamteam.model2.Elevator: Elevator3, current floor: 3
+2021.12.09 08:51:31.268 [INFO] com.dreamteam.model2.Elevator: User Passenger13 added to Elevator3 waiting list, size: 11
+2021.12.09 08:51:31.280 [INFO] com.dreamteam.model2.Elevator: No users left Elevator0
+2021.12.09 08:51:31.280 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:31.312 [INFO] com.dreamteam.model2.Elevator: No users left Elevator1
+2021.12.09 08:51:31.312 [INFO] com.dreamteam.model2.Elevator: No users left Elevator2
+2021.12.09 08:51:31.312 [INFO] com.dreamteam.model2.Floor: Queue at floor17, elevator4, queue size: 1
+2021.12.09 08:51:31.313 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:31.312 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:31.313 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 14, Start floor: 17, Destination floor: 23, ElevatorA4
+2021.12.09 08:51:31.374 [INFO] com.dreamteam.model2.Elevator: No users left Elevator0
+2021.12.09 08:51:31.374 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:31.374 [INFO] com.dreamteam.model2.Floor: Queue at floor27, elevator3, queue size: 1
+2021.12.09 08:51:31.375 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator3
+2021.12.09 08:51:31.375 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA3 goes to floor 20, direction: UP
+2021.12.09 08:51:31.375 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 15, Start floor: 27, Destination floor: 0, ElevatorA3
+2021.12.09 08:51:31.406 [INFO] com.dreamteam.model2.Elevator: No users left Elevator1
+2021.12.09 08:51:31.406 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:31.406 [INFO] com.dreamteam.model2.Elevator: No users left Elevator2
+2021.12.09 08:51:31.407 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:31.437 [INFO] com.dreamteam.model2.Floor: Queue at floor20, elevator4, queue size: 1
+2021.12.09 08:51:31.437 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 16, Start floor: 20, Destination floor: 21, ElevatorA4
+2021.12.09 08:51:31.468 [INFO] com.dreamteam.model2.Elevator: No users left Elevator0
+2021.12.09 08:51:31.468 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:31.497 [INFO] com.dreamteam.model2.Floor: Queue at floor16, elevator3, queue size: 1
+2021.12.09 08:51:31.498 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 17, Start floor: 16, Destination floor: 5, ElevatorA3
+2021.12.09 08:51:31.498 [INFO] com.dreamteam.model2.Elevator: No users left Elevator2
+2021.12.09 08:51:31.497 [INFO] com.dreamteam.model2.Elevator: No users left Elevator1
+2021.12.09 08:51:31.498 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:31.498 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:31.559 [INFO] com.dreamteam.model2.Floor: Queue at floor24, elevator3, queue size: 1
+2021.12.09 08:51:31.561 [INFO] com.dreamteam.model2.Elevator: No users left Elevator0
+2021.12.09 08:51:31.565 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:31.565 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 18, Start floor: 24, Destination floor: 22, ElevatorA3
+2021.12.09 08:51:31.591 [INFO] com.dreamteam.model2.Elevator: No users left Elevator2
+2021.12.09 08:51:31.591 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:31.592 [INFO] com.dreamteam.model2.Elevator: No users left Elevator1
+2021.12.09 08:51:31.596 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:31.618 [INFO] com.dreamteam.model2.Floor: Queue at floor10, elevator3, queue size: 1
+2021.12.09 08:51:31.621 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 19, Start floor: 10, Destination floor: 24, ElevatorA3
+2021.12.09 08:51:31.655 [INFO] com.dreamteam.model2.Elevator: No users left Elevator0
+2021.12.09 08:51:31.655 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:31.684 [INFO] com.dreamteam.model2.Elevator: No users left Elevator1
+2021.12.09 08:51:31.685 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:31.685 [INFO] com.dreamteam.model2.Elevator: No users left Elevator2
+2021.12.09 08:51:31.686 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:31.715 [INFO] com.dreamteam.model2.Floor: Queue at floor8, elevator3, queue size: 1
+2021.12.09 08:51:31.716 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 20, Start floor: 8, Destination floor: 22, ElevatorA3
+2021.12.09 08:51:31.746 [INFO] com.dreamteam.model2.Elevator: No users left Elevator0
+2021.12.09 08:51:31.747 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:31.773 [INFO] com.dreamteam.model2.Floor: Queue at floor8, elevator4, queue size: 1
+2021.12.09 08:51:31.774 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 21, Start floor: 8, Destination floor: 26, ElevatorA4
+2021.12.09 08:51:31.775 [INFO] com.dreamteam.model2.Floor: Queue at floor11, elevator4, queue size: 1
+2021.12.09 08:51:31.778 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 22, Start floor: 11, Destination floor: 18, ElevatorA4
+2021.12.09 08:51:31.778 [INFO] com.dreamteam.model2.Elevator: No users left Elevator2
+2021.12.09 08:51:31.778 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:31.778 [INFO] com.dreamteam.model2.Elevator: No users left Elevator1
+2021.12.09 08:51:31.779 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:31.840 [INFO] com.dreamteam.model2.Elevator: No users left Elevator0
+2021.12.09 08:51:31.840 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:31.872 [INFO] com.dreamteam.model2.Elevator: No users left Elevator1
+2021.12.09 08:51:31.872 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:31.872 [INFO] com.dreamteam.model2.Elevator: No users left Elevator2
+2021.12.09 08:51:31.872 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:31.901 [INFO] com.dreamteam.model2.Floor: Queue at floor29, elevator3, queue size: 1
+2021.12.09 08:51:31.904 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 23, Start floor: 29, Destination floor: 2, ElevatorA3
+2021.12.09 08:51:31.917 [INFO] com.dreamteam.model2.Floor: Queue at floor2, elevator3, queue size: 1
+2021.12.09 08:51:31.919 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 24, Start floor: 2, Destination floor: 14, ElevatorA3
+2021.12.09 08:51:31.934 [INFO] com.dreamteam.model2.Elevator: No users left Elevator0
+2021.12.09 08:51:31.934 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:31.982 [INFO] com.dreamteam.model2.Elevator: No users left Elevator1
+2021.12.09 08:51:31.982 [INFO] com.dreamteam.model2.Elevator: No users left Elevator2
+2021.12.09 08:51:31.983 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:31.983 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:31.983 [INFO] com.dreamteam.model2.Floor: Queue at floor24, elevator4, queue size: 1
+2021.12.09 08:51:31.985 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 25, Start floor: 24, Destination floor: 13, ElevatorA4
+2021.12.09 08:51:32.014 [INFO] com.dreamteam.model2.Elevator: No users left Elevator0
+2021.12.09 08:51:32.015 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:32.026 [INFO] com.dreamteam.model2.Floor: Queue at floor7, elevator3, queue size: 1
+2021.12.09 08:51:32.027 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 26, Start floor: 7, Destination floor: 8, ElevatorA3
+2021.12.09 08:51:32.069 [INFO] com.dreamteam.model2.Floor: Queue at floor29, elevator4, queue size: 1
+2021.12.09 08:51:32.070 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 27, Start floor: 29, Destination floor: 13, ElevatorA4
+2021.12.09 08:51:32.075 [INFO] com.dreamteam.model2.Elevator: No users left Elevator2
+2021.12.09 08:51:32.076 [INFO] com.dreamteam.model2.Elevator: No users left Elevator1
+2021.12.09 08:51:32.076 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:32.076 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:32.105 [INFO] com.dreamteam.model2.Elevator: No users left Elevator0
+2021.12.09 08:51:32.105 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:32.143 [INFO] com.dreamteam.model2.Floor: Queue at floor17, elevator1, queue size: 1
+2021.12.09 08:51:32.144 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 28, Start floor: 17, Destination floor: 10, ElevatorA1
+2021.12.09 08:51:32.144 [INFO] com.dreamteam.model2.Elevator: Elevator1 goes to user Passenger28
+2021.12.09 08:51:32.169 [INFO] com.dreamteam.model2.Elevator: No users left Elevator1
+2021.12.09 08:51:32.169 [INFO] com.dreamteam.model2.Elevator: No users left Elevator2
+2021.12.09 08:51:32.169 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:32.169 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA1 goes to floor 17, direction: UP
+2021.12.09 08:51:32.185 [INFO] com.dreamteam.model2.Elevator: No users left Elevator0
+2021.12.09 08:51:32.185 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:32.219 [INFO] com.dreamteam.model2.Floor: Queue at floor22, elevator3, queue size: 1
+2021.12.09 08:51:32.220 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 29, Start floor: 22, Destination floor: 6, ElevatorA3
+2021.12.09 08:51:32.263 [INFO] com.dreamteam.model2.Elevator: No users left Elevator2
+2021.12.09 08:51:32.264 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:32.270 [INFO] com.dreamteam.model2.Floor: Queue at floor27, elevator4, queue size: 1
+2021.12.09 08:51:32.271 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 30, Start floor: 27, Destination floor: 15, ElevatorA4
+2021.12.09 08:51:32.278 [INFO] com.dreamteam.model2.Elevator: No users left Elevator0
+2021.12.09 08:51:32.278 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:32.350 [INFO] com.dreamteam.model2.Floor: Queue at floor29, elevator1, queue size: 1
+2021.12.09 08:51:32.350 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 31, Start floor: 29, Destination floor: 14, ElevatorA1
+2021.12.09 08:51:32.356 [INFO] com.dreamteam.model2.Elevator: No users left Elevator2
+2021.12.09 08:51:32.356 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:32.371 [INFO] com.dreamteam.model2.Elevator: No users left Elevator0
+2021.12.09 08:51:32.371 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:32.404 [INFO] com.dreamteam.model2.Floor: Queue at floor2, elevator4, queue size: 1
+2021.12.09 08:51:32.405 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 32, Start floor: 2, Destination floor: 3, ElevatorA4
+2021.12.09 08:51:32.434 [INFO] com.dreamteam.model2.Elevator: Elevator3, current floor: 20
+2021.12.09 08:51:32.435 [INFO] com.dreamteam.model2.Elevator: User Passenger29 added to Elevator3 waiting list, size: 11
+2021.12.09 08:51:32.465 [INFO] com.dreamteam.model2.Elevator: User Passenger26 added to Elevator3 waiting list, size: 12
+2021.12.09 08:51:32.465 [INFO] com.dreamteam.model2.Elevator: No users left Elevator0
+2021.12.09 08:51:32.465 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:32.465 [INFO] com.dreamteam.model2.Floor: Queue at floor2, elevator1, queue size: 1
+2021.12.09 08:51:32.466 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 33, Start floor: 2, Destination floor: 13, ElevatorA1
+2021.12.09 08:51:32.465 [INFO] com.dreamteam.model2.Elevator: No users left Elevator2
+2021.12.09 08:51:32.466 [INFO] com.dreamteam.model2.Elevator: User Passenger24 added to Elevator3 waiting list, size: 13
+2021.12.09 08:51:32.466 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:32.466 [INFO] com.dreamteam.model2.Elevator: User Passenger23 added to Elevator3 waiting list, size: 14
+2021.12.09 08:51:32.466 [INFO] com.dreamteam.model2.Elevator: User Passenger20 added to Elevator3 waiting list, size: 15
+2021.12.09 08:51:32.467 [INFO] com.dreamteam.model2.Elevator: User Passenger19 added to Elevator3 waiting list, size: 16
+2021.12.09 08:51:32.467 [INFO] com.dreamteam.model2.Elevator: User Passenger18 added to Elevator3 waiting list, size: 17
+2021.12.09 08:51:32.467 [INFO] com.dreamteam.model2.Elevator: User Passenger17 added to Elevator3 waiting list, size: 18
+2021.12.09 08:51:32.467 [INFO] com.dreamteam.model2.Elevator: User Passenger15 added to Elevator3 waiting list, size: 19
+2021.12.09 08:51:32.489 [INFO] com.dreamteam.model2.Floor: Queue at floor3, elevator3, queue size: 1
+2021.12.09 08:51:32.489 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 34, Start floor: 3, Destination floor: 0, ElevatorA3
+2021.12.09 08:51:32.490 [INFO] com.dreamteam.model2.Elevator: User Passenger34 added to Elevator3 waiting list, size: 20
+2021.12.09 08:51:32.526 [INFO] com.dreamteam.model2.Elevator: No users left Elevator3
+2021.12.09 08:51:32.526 [INFO] com.dreamteam.model2.Elevator: User Passenger2 entered Elevator3, active users: 1
+2021.12.09 08:51:32.532 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA3 goes to floor 17, direction: DOWN
+2021.12.09 08:51:32.549 [INFO] com.dreamteam.model2.Floor: Queue at floor12, elevator4, queue size: 1
+2021.12.09 08:51:32.550 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 35, Start floor: 12, Destination floor: 27, ElevatorA4
+2021.12.09 08:51:32.558 [INFO] com.dreamteam.model2.Elevator: No users left Elevator0
+2021.12.09 08:51:32.558 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:32.558 [INFO] com.dreamteam.model2.Elevator: No users left Elevator2
+2021.12.09 08:51:32.559 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:32.631 [INFO] com.dreamteam.model2.Floor: Queue at floor14, elevator3, queue size: 1
+2021.12.09 08:51:32.633 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 36, Start floor: 14, Destination floor: 24, ElevatorA3
+2021.12.09 08:51:32.651 [INFO] com.dreamteam.model2.Elevator: No users left Elevator2
+2021.12.09 08:51:32.651 [INFO] com.dreamteam.model2.Elevator: No users left Elevator0
+2021.12.09 08:51:32.651 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:32.651 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:32.676 [INFO] com.dreamteam.model2.Floor: Queue at floor26, elevator4, queue size: 1
+2021.12.09 08:51:32.677 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 37, Start floor: 26, Destination floor: 27, ElevatorA4
+2021.12.09 08:51:32.713 [INFO] com.dreamteam.model2.Elevator: Elevator3, current floor: 17
+2021.12.09 08:51:32.713 [INFO] com.dreamteam.model2.Elevator: User Passenger36 added to Elevator3 waiting list, size: 21
+2021.12.09 08:51:32.737 [INFO] com.dreamteam.model2.Floor: Queue at floor10, elevator4, queue size: 1
+2021.12.09 08:51:32.738 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 38, Start floor: 10, Destination floor: 25, ElevatorA4
+2021.12.09 08:51:32.745 [INFO] com.dreamteam.model2.Elevator: No users left Elevator2
+2021.12.09 08:51:32.745 [INFO] com.dreamteam.model2.Elevator: No users left Elevator0
+2021.12.09 08:51:32.746 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:32.746 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:32.808 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator3
+2021.12.09 08:51:32.839 [INFO] com.dreamteam.model2.Elevator: No users left Elevator2
+2021.12.09 08:51:32.839 [INFO] com.dreamteam.model2.Elevator: No users left Elevator0
+2021.12.09 08:51:32.839 [INFO] com.dreamteam.model2.Elevator: User Passenger3 entered Elevator3, active users: 1
+2021.12.09 08:51:32.839 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:32.839 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:32.839 [INFO] com.dreamteam.model2.Floor: Queue at floor22, elevator4, queue size: 1
+2021.12.09 08:51:32.840 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 39, Start floor: 22, Destination floor: 23, ElevatorA4
+2021.12.09 08:51:32.842 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA3 goes to floor 15, direction: DOWN
+2021.12.09 08:51:32.855 [INFO] com.dreamteam.model2.Elevator: Elevator4, current floor: 28
+2021.12.09 08:51:32.855 [INFO] com.dreamteam.model2.Elevator: User Passenger39 added to Elevator4 waiting list, size: 2
+2021.12.09 08:51:32.869 [INFO] com.dreamteam.model2.Elevator: User Passenger38 added to Elevator4 waiting list, size: 3
+2021.12.09 08:51:32.869 [INFO] com.dreamteam.model2.Elevator: User Passenger37 added to Elevator4 waiting list, size: 4
+2021.12.09 08:51:32.869 [INFO] com.dreamteam.model2.Elevator: User Passenger35 added to Elevator4 waiting list, size: 5
+2021.12.09 08:51:32.870 [INFO] com.dreamteam.model2.Elevator: User Passenger32 added to Elevator4 waiting list, size: 6
+2021.12.09 08:51:32.870 [INFO] com.dreamteam.model2.Elevator: User Passenger30 added to Elevator4 waiting list, size: 7
+2021.12.09 08:51:32.870 [INFO] com.dreamteam.model2.Elevator: User Passenger27 added to Elevator4 waiting list, size: 8
+2021.12.09 08:51:32.870 [INFO] com.dreamteam.model2.Elevator: User Passenger25 added to Elevator4 waiting list, size: 9
+2021.12.09 08:51:32.870 [INFO] com.dreamteam.model2.Elevator: User Passenger22 added to Elevator4 waiting list, size: 10
+2021.12.09 08:51:32.871 [INFO] com.dreamteam.model2.Elevator: User Passenger21 added to Elevator4 waiting list, size: 11
+2021.12.09 08:51:32.871 [INFO] com.dreamteam.model2.Elevator: User Passenger16 added to Elevator4 waiting list, size: 12
+2021.12.09 08:51:32.872 [INFO] com.dreamteam.model2.Elevator: User Passenger14 added to Elevator4 waiting list, size: 13
+2021.12.09 08:51:32.873 [INFO] com.dreamteam.model2.Floor: Queue at floor7, elevator4, queue size: 1
+2021.12.09 08:51:32.874 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 40, Start floor: 7, Destination floor: 4, ElevatorA4
+2021.12.09 08:51:32.875 [INFO] com.dreamteam.model2.Elevator: User Passenger40 added to Elevator4 waiting list, size: 14
+2021.12.09 08:51:32.913 [INFO] com.dreamteam.model2.Floor: Queue at floor14, elevator4, queue size: 1
+2021.12.09 08:51:32.915 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 41, Start floor: 14, Destination floor: 8, ElevatorA4
+2021.12.09 08:51:32.915 [INFO] com.dreamteam.model2.Elevator: User Passenger41 added to Elevator4 waiting list, size: 15
+2021.12.09 08:51:32.931 [INFO] com.dreamteam.model2.Elevator: No users left Elevator0
+2021.12.09 08:51:32.931 [INFO] com.dreamteam.model2.Elevator: No users left Elevator2
+2021.12.09 08:51:32.931 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:32.931 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:32.947 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator4
+2021.12.09 08:51:32.947 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA4 goes to floor 23, direction: DOWN
+2021.12.09 08:51:32.963 [INFO] com.dreamteam.model2.Elevator: Elevator3, current floor: 15
+2021.12.09 08:51:32.965 [INFO] com.dreamteam.model2.Floor: Queue at floor26, elevator1, queue size: 1
+2021.12.09 08:51:32.966 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 42, Start floor: 26, Destination floor: 13, ElevatorA1
+2021.12.09 08:51:33.026 [INFO] com.dreamteam.model2.Elevator: No users left Elevator0
+2021.12.09 08:51:33.026 [INFO] com.dreamteam.model2.Elevator: No users left Elevator2
+2021.12.09 08:51:33.026 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:33.026 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:33.031 [INFO] com.dreamteam.model2.Floor: Queue at floor18, elevator3, queue size: 1
+2021.12.09 08:51:33.031 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 43, Start floor: 18, Destination floor: 9, ElevatorA3
+2021.12.09 08:51:33.032 [INFO] com.dreamteam.model2.Elevator: User Passenger43 added to Elevator3 waiting list, size: 21
+2021.12.09 08:51:33.057 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator3
+2021.12.09 08:51:33.057 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA3 goes to floor 23, direction: UP
+2021.12.09 08:51:33.090 [INFO] com.dreamteam.model2.Floor: Queue at floor3, elevator4, queue size: 1
+2021.12.09 08:51:33.090 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 44, Start floor: 3, Destination floor: 4, ElevatorA4
+2021.12.09 08:51:33.120 [INFO] com.dreamteam.model2.Elevator: No users left Elevator2
+2021.12.09 08:51:33.120 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:33.120 [INFO] com.dreamteam.model2.Elevator: No users left Elevator0
+2021.12.09 08:51:33.120 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:33.178 [INFO] com.dreamteam.model2.Floor: Queue at floor11, elevator1, queue size: 1
+2021.12.09 08:51:33.180 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 45, Start floor: 11, Destination floor: 6, ElevatorA1
+2021.12.09 08:51:33.212 [INFO] com.dreamteam.model2.Elevator: No users left Elevator0
+2021.12.09 08:51:33.212 [INFO] com.dreamteam.model2.Elevator: No users left Elevator2
+2021.12.09 08:51:33.212 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:33.212 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:33.220 [INFO] com.dreamteam.model2.Floor: Queue at floor21, elevator3, queue size: 1
+2021.12.09 08:51:33.221 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 46, Start floor: 21, Destination floor: 1, ElevatorA3
+2021.12.09 08:51:33.228 [INFO] com.dreamteam.model2.Elevator: Elevator1, current floor: 17
+2021.12.09 08:51:33.228 [INFO] com.dreamteam.model2.Elevator: User Passenger45 added to Elevator1 waiting list, size: 1
+2021.12.09 08:51:33.229 [INFO] com.dreamteam.model2.Elevator: User Passenger42 added to Elevator1 waiting list, size: 2
+2021.12.09 08:51:33.232 [INFO] com.dreamteam.model2.Elevator: User Passenger33 added to Elevator1 waiting list, size: 3
+2021.12.09 08:51:33.232 [INFO] com.dreamteam.model2.Elevator: User Passenger31 added to Elevator1 waiting list, size: 4
+2021.12.09 08:51:33.260 [INFO] com.dreamteam.model2.Elevator: Elevator4, current floor: 23
+2021.12.09 08:51:33.261 [INFO] com.dreamteam.model2.Elevator: User Passenger44 added to Elevator4 waiting list, size: 15
+2021.12.09 08:51:33.276 [INFO] com.dreamteam.model2.Floor: Queue at floor27, elevator1, queue size: 1
+2021.12.09 08:51:33.277 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 47, Start floor: 27, Destination floor: 29, ElevatorA1
+2021.12.09 08:51:33.278 [INFO] com.dreamteam.model2.Elevator: User Passenger47 added to Elevator1 waiting list, size: 5
+2021.12.09 08:51:33.292 [INFO] com.dreamteam.model2.Elevator: No users left Elevator0
+2021.12.09 08:51:33.292 [INFO] com.dreamteam.model2.Elevator: No users left Elevator2
+2021.12.09 08:51:33.292 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:33.292 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:33.322 [INFO] com.dreamteam.model2.Elevator: No users left Elevator1
+2021.12.09 08:51:33.339 [INFO] com.dreamteam.model2.Elevator: User Passenger28 entered Elevator1, active users: 1
+2021.12.09 08:51:33.340 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA1 goes to floor 10, direction: DOWN
+2021.12.09 08:51:33.344 [INFO] com.dreamteam.model2.Floor: Queue at floor0, elevator4, queue size: 1
+2021.12.09 08:51:33.346 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 48, Start floor: 0, Destination floor: 23, ElevatorA4
+2021.12.09 08:51:33.346 [INFO] com.dreamteam.model2.Elevator: User Passenger48 added to Elevator4 waiting list, size: 16
+2021.12.09 08:51:33.353 [INFO] com.dreamteam.model2.Elevator: No users left Elevator4
+2021.12.09 08:51:33.356 [INFO] com.dreamteam.model2.Elevator: User Passenger12 entered Elevator4, active users: 1
+2021.12.09 08:51:33.356 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA4 goes to floor 19, direction: DOWN
+2021.12.09 08:51:33.386 [INFO] com.dreamteam.model2.Elevator: No users left Elevator2
+2021.12.09 08:51:33.386 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:33.387 [INFO] com.dreamteam.model2.Elevator: No users left Elevator0
+2021.12.09 08:51:33.387 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:33.400 [INFO] com.dreamteam.model2.Floor: Queue at floor21, elevator4, queue size: 1
+2021.12.09 08:51:33.402 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 49, Start floor: 21, Destination floor: 26, ElevatorA4
+2021.12.09 08:51:33.451 [INFO] com.dreamteam.model2.Floor: Queue at floor15, elevator3, queue size: 1
+2021.12.09 08:51:33.452 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 50, Start floor: 15, Destination floor: 7, ElevatorA3
+2021.12.09 08:51:33.477 [INFO] com.dreamteam.model2.Elevator: No users left Elevator0
+2021.12.09 08:51:33.478 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:33.477 [INFO] com.dreamteam.model2.Elevator: No users left Elevator2
+2021.12.09 08:51:33.479 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:33.517 [INFO] com.dreamteam.model2.Floor: Queue at floor23, elevator4, queue size: 1
+2021.12.09 08:51:33.517 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 51, Start floor: 23, Destination floor: 10, ElevatorA4
+2021.12.09 08:51:33.554 [INFO] com.dreamteam.model2.Elevator: Elevator3, current floor: 23
+2021.12.09 08:51:33.554 [INFO] com.dreamteam.model2.Elevator: User Passenger50 added to Elevator3 waiting list, size: 21
+2021.12.09 08:51:33.554 [INFO] com.dreamteam.model2.Elevator: User Passenger46 added to Elevator3 waiting list, size: 22
+2021.12.09 08:51:33.569 [INFO] com.dreamteam.model2.Elevator: No users left Elevator2
+2021.12.09 08:51:33.569 [INFO] com.dreamteam.model2.Elevator: No users left Elevator0
+2021.12.09 08:51:33.569 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:33.569 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:33.574 [INFO] com.dreamteam.model2.Floor: Queue at floor1, elevator3, queue size: 1
+2021.12.09 08:51:33.578 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 52, Start floor: 1, Destination floor: 26, ElevatorA3
+2021.12.09 08:51:33.579 [INFO] com.dreamteam.model2.Elevator: User Passenger52 added to Elevator3 waiting list, size: 23
+2021.12.09 08:51:33.601 [INFO] com.dreamteam.model2.Elevator: Elevator4, current floor: 19
+2021.12.09 08:51:33.601 [INFO] com.dreamteam.model2.Elevator: User Passenger51 added to Elevator4 waiting list, size: 17
+2021.12.09 08:51:33.601 [INFO] com.dreamteam.model2.Elevator: User Passenger49 added to Elevator4 waiting list, size: 18
+2021.12.09 08:51:33.634 [INFO] com.dreamteam.model2.Floor: Queue at floor14, elevator1, queue size: 1
+2021.12.09 08:51:33.634 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 53, Start floor: 14, Destination floor: 15, ElevatorA1
+2021.12.09 08:51:33.648 [INFO] com.dreamteam.model2.Elevator: No users left Elevator3
+2021.12.09 08:51:33.648 [INFO] com.dreamteam.model2.Elevator: User Passenger4 entered Elevator3, active users: 1
+2021.12.09 08:51:33.649 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA3 goes to floor 8, direction: DOWN
+2021.12.09 08:51:33.663 [INFO] com.dreamteam.model2.Elevator: No users left Elevator0
+2021.12.09 08:51:33.663 [INFO] com.dreamteam.model2.Elevator: No users left Elevator2
+2021.12.09 08:51:33.664 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:33.664 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:33.680 [INFO] com.dreamteam.model2.Floor: Queue at floor4, elevator3, queue size: 1
+2021.12.09 08:51:33.680 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 54, Start floor: 4, Destination floor: 9, ElevatorA3
+2021.12.09 08:51:33.694 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator4
+2021.12.09 08:51:33.694 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA4 goes to floor 22, direction: UP
+2021.12.09 08:51:33.741 [INFO] com.dreamteam.model2.Floor: Queue at floor8, elevator1, queue size: 1
+2021.12.09 08:51:33.742 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 55, Start floor: 8, Destination floor: 14, ElevatorA1
+2021.12.09 08:51:33.755 [INFO] com.dreamteam.model2.Elevator: No users left Elevator2
+2021.12.09 08:51:33.755 [INFO] com.dreamteam.model2.Elevator: No users left Elevator0
+2021.12.09 08:51:33.755 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:33.755 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:33.770 [INFO] com.dreamteam.model2.Elevator: Elevator1, current floor: 10
+2021.12.09 08:51:33.770 [INFO] com.dreamteam.model2.Elevator: User Passenger55 added to Elevator1 waiting list, size: 6
+2021.12.09 08:51:33.771 [INFO] com.dreamteam.model2.Elevator: User Passenger53 added to Elevator1 waiting list, size: 7
+2021.12.09 08:51:33.802 [INFO] com.dreamteam.model2.Floor: Queue at floor27, elevator0, queue size: 1
+2021.12.09 08:51:33.802 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 56, Start floor: 27, Destination floor: 19, ElevatorA0
+2021.12.09 08:51:33.802 [INFO] com.dreamteam.model2.Elevator: Elevator0 goes to user Passenger56
+2021.12.09 08:51:33.849 [INFO] com.dreamteam.model2.Elevator: No users left Elevator2
+2021.12.09 08:51:33.849 [INFO] com.dreamteam.model2.Elevator: No users left Elevator0
+2021.12.09 08:51:33.849 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:33.849 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA0 goes to floor 27, direction: UP
+2021.12.09 08:51:33.865 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator1
+2021.12.09 08:51:33.865 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA1 goes to floor 11, direction: UP
+2021.12.09 08:51:33.874 [INFO] com.dreamteam.model2.Floor: Queue at floor16, elevator4, queue size: 1
+2021.12.09 08:51:33.875 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 57, Start floor: 16, Destination floor: 23, ElevatorA4
+2021.12.09 08:51:33.879 [INFO] com.dreamteam.model2.Elevator: Elevator4, current floor: 22
+2021.12.09 08:51:33.879 [INFO] com.dreamteam.model2.Elevator: User Passenger57 added to Elevator4 waiting list, size: 18
+2021.12.09 08:51:33.925 [INFO] com.dreamteam.model2.Elevator: Elevator1, current floor: 11
+2021.12.09 08:51:33.930 [INFO] com.dreamteam.model2.Floor: Queue at floor2, elevator0, queue size: 1
+2021.12.09 08:51:33.930 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 58, Start floor: 2, Destination floor: 3, ElevatorA0
+2021.12.09 08:51:33.941 [INFO] com.dreamteam.model2.Elevator: No users left Elevator2
+2021.12.09 08:51:33.941 [INFO] com.dreamteam.model2.ElevatorA: No active and waiting users, elevator is free now
+2021.12.09 08:51:33.973 [INFO] com.dreamteam.model2.Elevator: No users left Elevator4
+2021.12.09 08:51:33.973 [INFO] com.dreamteam.model2.Elevator: User Passenger39 entered Elevator4, active users: 1
+2021.12.09 08:51:33.974 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA4 goes to floor 23, direction: UP
+2021.12.09 08:51:33.999 [INFO] com.dreamteam.model2.Floor: Queue at floor27, elevator2, queue size: 1
+2021.12.09 08:51:34.001 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 59, Start floor: 27, Destination floor: 5, ElevatorA2
+2021.12.09 08:51:34.005 [INFO] com.dreamteam.model2.Elevator: Elevator2 goes to user Passenger59
+2021.12.09 08:51:34.020 [INFO] com.dreamteam.model2.Elevator: No users left Elevator1
+2021.12.09 08:51:34.020 [INFO] com.dreamteam.model2.Elevator: User Passenger45 entered Elevator1, active users: 1
+2021.12.09 08:51:34.021 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA1 goes to floor 6, direction: DOWN
+2021.12.09 08:51:34.035 [INFO] com.dreamteam.model2.Elevator: Elevator4, current floor: 23
+2021.12.09 08:51:34.035 [INFO] com.dreamteam.model2.Elevator: No users left Elevator2
+2021.12.09 08:51:34.035 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA2 goes to floor 27, direction: UP
+2021.12.09 08:51:34.057 [INFO] com.dreamteam.model2.Floor: Queue at floor6, elevator3, queue size: 1
+2021.12.09 08:51:34.059 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 60, Start floor: 6, Destination floor: 7, ElevatorA3
+2021.12.09 08:51:34.124 [INFO] com.dreamteam.model2.Floor: Queue at floor1, elevator4, queue size: 1
+2021.12.09 08:51:34.124 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 61, Start floor: 1, Destination floor: 27, ElevatorA4
+2021.12.09 08:51:34.124 [INFO] com.dreamteam.model2.Elevator: User Passenger61 added to Elevator4 waiting list, size: 19
+2021.12.09 08:51:34.128 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator4
+2021.12.09 08:51:34.129 [INFO] com.dreamteam.model2.Elevator: User Passenger51 entered Elevator4, active users: 1
+2021.12.09 08:51:34.130 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA4 goes to floor 10, direction: DOWN
+2021.12.09 08:51:34.200 [INFO] com.dreamteam.model2.Floor: Queue at floor15, elevator4, queue size: 1
+2021.12.09 08:51:34.203 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 62, Start floor: 15, Destination floor: 24, ElevatorA4
+2021.12.09 08:51:34.237 [INFO] com.dreamteam.model2.Floor: Queue at floor22, elevator4, queue size: 1
+2021.12.09 08:51:34.238 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 63, Start floor: 22, Destination floor: 4, ElevatorA4
+2021.12.09 08:51:34.312 [INFO] com.dreamteam.model2.Floor: Queue at floor24, elevator1, queue size: 1
+2021.12.09 08:51:34.313 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 64, Start floor: 24, Destination floor: 16, ElevatorA1
+2021.12.09 08:51:34.330 [INFO] com.dreamteam.model2.Elevator: Elevator1, current floor: 6
+2021.12.09 08:51:34.332 [INFO] com.dreamteam.model2.Elevator: User Passenger64 added to Elevator1 waiting list, size: 7
+2021.12.09 08:51:34.421 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator1
+2021.12.09 08:51:34.421 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA1 goes to floor 26, direction: UP
+2021.12.09 08:51:34.450 [INFO] com.dreamteam.model2.Floor: Queue at floor1, elevator1, queue size: 1
+2021.12.09 08:51:34.451 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 65, Start floor: 1, Destination floor: 6, ElevatorA1
+2021.12.09 08:51:34.452 [INFO] com.dreamteam.model2.Floor: Queue at floor16, elevator1, queue size: 1
+2021.12.09 08:51:34.453 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 66, Start floor: 16, Destination floor: 20, ElevatorA1
+2021.12.09 08:51:34.478 [INFO] com.dreamteam.model2.Floor: Queue at floor19, elevator3, queue size: 1
+2021.12.09 08:51:34.481 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 67, Start floor: 19, Destination floor: 27, ElevatorA3
+2021.12.09 08:51:34.578 [INFO] com.dreamteam.model2.Elevator: Elevator3, current floor: 8
+2021.12.09 08:51:34.578 [INFO] com.dreamteam.model2.Elevator: User Passenger67 added to Elevator3 waiting list, size: 24
+2021.12.09 08:51:34.578 [INFO] com.dreamteam.model2.Elevator: User Passenger60 added to Elevator3 waiting list, size: 25
+2021.12.09 08:51:34.578 [INFO] com.dreamteam.model2.Elevator: User Passenger54 added to Elevator3 waiting list, size: 26
+2021.12.09 08:51:34.591 [INFO] com.dreamteam.model2.Floor: Queue at floor4, elevator4, queue size: 1
+2021.12.09 08:51:34.591 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 68, Start floor: 4, Destination floor: 18, ElevatorA4
+2021.12.09 08:51:34.600 [INFO] com.dreamteam.model2.Floor: Queue at floor29, elevator0, queue size: 1
+2021.12.09 08:51:34.601 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 69, Start floor: 29, Destination floor: 21, ElevatorA0
+2021.12.09 08:51:34.667 [INFO] com.dreamteam.model2.Floor: Queue at floor15, elevator1, queue size: 1
+2021.12.09 08:51:34.668 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 70, Start floor: 15, Destination floor: 0, ElevatorA1
+2021.12.09 08:51:34.669 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator3
+2021.12.09 08:51:34.670 [INFO] com.dreamteam.model2.Elevator: User Passenger20 entered Elevator3, active users: 1
+2021.12.09 08:51:34.671 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA3 goes to floor 22, direction: UP
+2021.12.09 08:51:34.715 [INFO] com.dreamteam.model2.Floor: Queue at floor18, elevator4, queue size: 1
+2021.12.09 08:51:34.716 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 71, Start floor: 18, Destination floor: 21, ElevatorA4
+2021.12.09 08:51:34.937 [INFO] com.dreamteam.model2.Elevator: Elevator4, current floor: 10
+2021.12.09 08:51:34.937 [INFO] com.dreamteam.model2.Elevator: User Passenger71 added to Elevator4 waiting list, size: 19
+2021.12.09 08:51:34.937 [INFO] com.dreamteam.model2.Elevator: User Passenger68 added to Elevator4 waiting list, size: 20
+2021.12.09 08:51:34.937 [INFO] com.dreamteam.model2.Elevator: User Passenger63 added to Elevator4 waiting list, size: 21
+2021.12.09 08:51:34.937 [INFO] com.dreamteam.model2.Elevator: User Passenger62 added to Elevator4 waiting list, size: 22
+2021.12.09 08:51:35.018 [INFO] com.dreamteam.model2.Floor: Queue at floor9, elevator4, queue size: 1
+2021.12.09 08:51:35.019 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 72, Start floor: 9, Destination floor: 2, ElevatorA4
+2021.12.09 08:51:35.019 [INFO] com.dreamteam.model2.Elevator: User Passenger72 added to Elevator4 waiting list, size: 23
+2021.12.09 08:51:35.031 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator4
+2021.12.09 08:51:35.032 [INFO] com.dreamteam.model2.Elevator: User Passenger38 entered Elevator4, active users: 1
+2021.12.09 08:51:35.032 [INFO] com.dreamteam.model2.Floor: Queue at floor18, elevator1, queue size: 1
+2021.12.09 08:51:35.032 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 73, Start floor: 18, Destination floor: 16, ElevatorA1
+2021.12.09 08:51:35.032 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA4 goes to floor 25, direction: UP
+2021.12.09 08:51:35.032 [INFO] com.dreamteam.model2.Floor: Queue at floor29, elevator2, queue size: 1
+2021.12.09 08:51:35.032 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 74, Start floor: 29, Destination floor: 10, ElevatorA2
+2021.12.09 08:51:35.032 [INFO] com.dreamteam.model2.Floor: Queue at floor23, elevator3, queue size: 1
+2021.12.09 08:51:35.033 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 75, Start floor: 23, Destination floor: 10, ElevatorA3
+2021.12.09 08:51:35.033 [INFO] com.dreamteam.model2.Floor: Queue at floor10, elevator4, queue size: 1
+2021.12.09 08:51:35.034 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 76, Start floor: 10, Destination floor: 14, ElevatorA4
+2021.12.09 08:51:35.067 [INFO] com.dreamteam.model2.Floor: Queue at floor16, elevator0, queue size: 1
+2021.12.09 08:51:35.068 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 77, Start floor: 16, Destination floor: 0, ElevatorA0
+2021.12.09 08:51:35.127 [INFO] com.dreamteam.model2.Floor: Queue at floor20, elevator3, queue size: 1
+2021.12.09 08:51:35.127 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 78, Start floor: 20, Destination floor: 21, ElevatorA3
+2021.12.09 08:51:35.194 [INFO] com.dreamteam.model2.Floor: Queue at floor1, elevator0, queue size: 1
+2021.12.09 08:51:35.196 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 79, Start floor: 1, Destination floor: 10, ElevatorA0
+2021.12.09 08:51:35.248 [INFO] com.dreamteam.model2.Floor: Queue at floor27, elevator3, queue size: 2
+2021.12.09 08:51:35.249 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 80, Start floor: 27, Destination floor: 20, ElevatorA3
+2021.12.09 08:51:35.316 [INFO] com.dreamteam.model2.Floor: Queue at floor6, elevator4, queue size: 1
+2021.12.09 08:51:35.317 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 81, Start floor: 6, Destination floor: 24, ElevatorA4
+2021.12.09 08:51:35.531 [INFO] com.dreamteam.model2.Elevator: Elevator0, current floor: 27
+2021.12.09 08:51:35.531 [INFO] com.dreamteam.model2.Elevator: User Passenger79 added to Elevator0 waiting list, size: 1
+2021.12.09 08:51:35.531 [INFO] com.dreamteam.model2.Elevator: User Passenger77 added to Elevator0 waiting list, size: 2
+2021.12.09 08:51:35.532 [INFO] com.dreamteam.model2.Elevator: User Passenger69 added to Elevator0 waiting list, size: 3
+2021.12.09 08:51:35.532 [INFO] com.dreamteam.model2.Elevator: User Passenger58 added to Elevator0 waiting list, size: 4
+2021.12.09 08:51:35.577 [INFO] com.dreamteam.model2.Elevator: Elevator3, current floor: 22
+2021.12.09 08:51:35.577 [INFO] com.dreamteam.model2.Elevator: User Passenger80 added to Elevator3 waiting list, size: 26
+2021.12.09 08:51:35.577 [INFO] com.dreamteam.model2.Elevator: User Passenger78 added to Elevator3 waiting list, size: 27
+2021.12.09 08:51:35.578 [INFO] com.dreamteam.model2.Elevator: User Passenger75 added to Elevator3 waiting list, size: 28
+2021.12.09 08:51:35.626 [INFO] com.dreamteam.model2.Elevator: No users left Elevator0
+2021.12.09 08:51:35.706 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator3
+2021.12.09 08:51:35.707 [INFO] com.dreamteam.model2.Floor: Queue at floor26, elevator0, queue size: 1
+2021.12.09 08:51:35.707 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 82, Start floor: 26, Destination floor: 0, ElevatorA0
+2021.12.09 08:51:35.707 [INFO] com.dreamteam.model2.Floor: Queue at floor23, elevator4, queue size: 1
+2021.12.09 08:51:35.708 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 83, Start floor: 23, Destination floor: 6, ElevatorA4
+2021.12.09 08:51:35.709 [INFO] com.dreamteam.model2.Floor: Queue at floor7, elevator1, queue size: 1
+2021.12.09 08:51:35.710 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 84, Start floor: 7, Destination floor: 29, ElevatorA1
+2021.12.09 08:51:35.728 [INFO] com.dreamteam.model2.Elevator: User Passenger56 entered Elevator0, active users: 1
+2021.12.09 08:51:35.754 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA0 goes to floor 19, direction: DOWN
+2021.12.09 08:51:35.756 [INFO] com.dreamteam.model2.Elevator: User Passenger29 entered Elevator3, active users: 1
+2021.12.09 08:51:35.756 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA3 goes to floor 6, direction: DOWN
+2021.12.09 08:51:35.757 [INFO] com.dreamteam.model2.Floor: Queue at floor19, elevator4, queue size: 1
+2021.12.09 08:51:35.757 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 85, Start floor: 19, Destination floor: 3, ElevatorA4
+2021.12.09 08:51:35.757 [INFO] com.dreamteam.model2.Floor: Queue at floor1, elevator2, queue size: 1
+2021.12.09 08:51:35.758 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 86, Start floor: 1, Destination floor: 27, ElevatorA2
+2021.12.09 08:51:35.758 [INFO] com.dreamteam.model2.Floor: Queue at floor26, elevator2, queue size: 1
+2021.12.09 08:51:35.758 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 87, Start floor: 26, Destination floor: 0, ElevatorA2
+2021.12.09 08:51:35.759 [INFO] com.dreamteam.model2.Floor: Queue at floor15, elevator0, queue size: 1
+2021.12.09 08:51:35.759 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 88, Start floor: 15, Destination floor: 18, ElevatorA0
+2021.12.09 08:51:35.770 [INFO] com.dreamteam.model2.Elevator: Elevator2, current floor: 27
+2021.12.09 08:51:35.770 [INFO] com.dreamteam.model2.Elevator: Elevator1, current floor: 26
+2021.12.09 08:51:35.770 [INFO] com.dreamteam.model2.Elevator: User Passenger87 added to Elevator2 waiting list, size: 1
+2021.12.09 08:51:35.771 [INFO] com.dreamteam.model2.Elevator: User Passenger84 added to Elevator1 waiting list, size: 7
+2021.12.09 08:51:35.771 [INFO] com.dreamteam.model2.Elevator: User Passenger86 added to Elevator2 waiting list, size: 2
+2021.12.09 08:51:35.773 [INFO] com.dreamteam.model2.Elevator: User Passenger73 added to Elevator1 waiting list, size: 8
+2021.12.09 08:51:35.773 [INFO] com.dreamteam.model2.Elevator: User Passenger74 added to Elevator2 waiting list, size: 3
+2021.12.09 08:51:35.775 [INFO] com.dreamteam.model2.Elevator: User Passenger70 added to Elevator1 waiting list, size: 9
+2021.12.09 08:51:35.779 [INFO] com.dreamteam.model2.Elevator: User Passenger66 added to Elevator1 waiting list, size: 10
+2021.12.09 08:51:35.781 [INFO] com.dreamteam.model2.Elevator: User Passenger65 added to Elevator1 waiting list, size: 11
+2021.12.09 08:51:35.850 [INFO] com.dreamteam.model2.Elevator: No users left Elevator2
+2021.12.09 08:51:35.881 [INFO] com.dreamteam.model2.Elevator: No users left Elevator1
+2021.12.09 08:51:35.881 [INFO] com.dreamteam.model2.Floor: Queue at floor16, elevator2, queue size: 1
+2021.12.09 08:51:35.881 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 89, Start floor: 16, Destination floor: 24, ElevatorA2
+2021.12.09 08:51:35.891 [INFO] com.dreamteam.model2.Elevator: User Passenger59 entered Elevator2, active users: 1
+2021.12.09 08:51:35.891 [INFO] com.dreamteam.model2.Elevator: User Passenger42 entered Elevator1, active users: 1
+2021.12.09 08:51:35.891 [INFO] com.dreamteam.model2.Floor: Queue at floor6, elevator1, queue size: 1
+2021.12.09 08:51:35.891 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA2 goes to floor 5, direction: DOWN
+2021.12.09 08:51:35.891 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 90, Start floor: 6, Destination floor: 5, ElevatorA1
+2021.12.09 08:51:35.891 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA1 goes to floor 13, direction: DOWN
+2021.12.09 08:51:35.940 [INFO] com.dreamteam.model2.Floor: Queue at floor19, elevator1, queue size: 1
+2021.12.09 08:51:35.945 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 91, Start floor: 19, Destination floor: 3, ElevatorA1
+2021.12.09 08:51:35.983 [INFO] com.dreamteam.model2.Floor: Queue at floor20, elevator1, queue size: 1
+2021.12.09 08:51:35.983 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 92, Start floor: 20, Destination floor: 3, ElevatorA1
+2021.12.09 08:51:36.022 [INFO] com.dreamteam.model2.Elevator: Elevator4, current floor: 25
+2021.12.09 08:51:36.022 [INFO] com.dreamteam.model2.Elevator: User Passenger85 added to Elevator4 waiting list, size: 23
+2021.12.09 08:51:36.022 [INFO] com.dreamteam.model2.Elevator: User Passenger83 added to Elevator4 waiting list, size: 24
+2021.12.09 08:51:36.023 [INFO] com.dreamteam.model2.Elevator: User Passenger81 added to Elevator4 waiting list, size: 25
+2021.12.09 08:51:36.023 [INFO] com.dreamteam.model2.Elevator: User Passenger76 added to Elevator4 waiting list, size: 26
+2021.12.09 08:51:36.040 [INFO] com.dreamteam.model2.Floor: Queue at floor6, elevator0, queue size: 1
+2021.12.09 08:51:36.040 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 93, Start floor: 6, Destination floor: 18, ElevatorA0
+2021.12.09 08:51:36.117 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator4
+2021.12.09 08:51:36.117 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA4 goes to floor 26, direction: UP
+2021.12.09 08:51:36.127 [INFO] com.dreamteam.model2.Floor: Queue at floor17, elevator3, queue size: 1
+2021.12.09 08:51:36.128 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 94, Start floor: 17, Destination floor: 25, ElevatorA3
+2021.12.09 08:51:36.161 [INFO] com.dreamteam.model2.Floor: Queue at floor25, elevator4, queue size: 1
+2021.12.09 08:51:36.162 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 95, Start floor: 25, Destination floor: 20, ElevatorA4
+2021.12.09 08:51:36.178 [INFO] com.dreamteam.model2.Elevator: Elevator4, current floor: 26
+2021.12.09 08:51:36.179 [INFO] com.dreamteam.model2.Elevator: User Passenger95 added to Elevator4 waiting list, size: 26
+2021.12.09 08:51:36.220 [INFO] com.dreamteam.model2.Floor: Queue at floor23, elevator1, queue size: 1
+2021.12.09 08:51:36.221 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 96, Start floor: 23, Destination floor: 24, ElevatorA1
+2021.12.09 08:51:36.257 [INFO] com.dreamteam.model2.Elevator: Elevator0, current floor: 19
+2021.12.09 08:51:36.257 [INFO] com.dreamteam.model2.Elevator: User Passenger82 added to Elevator0 waiting list, size: 5
+2021.12.09 08:51:36.257 [INFO] com.dreamteam.model2.Elevator: User Passenger93 added to Elevator0 waiting list, size: 6
+2021.12.09 08:51:36.257 [INFO] com.dreamteam.model2.Elevator: User Passenger88 added to Elevator0 waiting list, size: 7
+2021.12.09 08:51:36.273 [INFO] com.dreamteam.model2.Elevator: No users left Elevator4
+2021.12.09 08:51:36.288 [INFO] com.dreamteam.model2.Elevator: User Passenger37 entered Elevator4, active users: 1
+2021.12.09 08:51:36.288 [INFO] com.dreamteam.model2.Floor: Queue at floor13, elevator4, queue size: 1
+2021.12.09 08:51:36.288 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA4 goes to floor 27, direction: UP
+2021.12.09 08:51:36.288 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 97, Start floor: 13, Destination floor: 26, ElevatorA4
+2021.12.09 08:51:36.337 [INFO] com.dreamteam.model2.Floor: Queue at floor24, elevator0, queue size: 1
+2021.12.09 08:51:36.338 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 98, Start floor: 24, Destination floor: 8, ElevatorA0
+2021.12.09 08:51:36.338 [INFO] com.dreamteam.model2.Elevator: User Passenger98 added to Elevator0 waiting list, size: 8
+2021.12.09 08:51:36.350 [INFO] com.dreamteam.model2.Elevator: Elevator4, current floor: 27
+2021.12.09 08:51:36.350 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator0
+2021.12.09 08:51:36.350 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA0 goes to floor 1, direction: DOWN
+2021.12.09 08:51:36.350 [INFO] com.dreamteam.model2.Elevator: User Passenger97 added to Elevator4 waiting list, size: 27
+2021.12.09 08:51:36.382 [INFO] com.dreamteam.model2.Floor: Queue at floor28, elevator3, queue size: 1
+2021.12.09 08:51:36.383 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 99, Start floor: 28, Destination floor: 29, ElevatorA3
+2021.12.09 08:51:36.441 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator4
+2021.12.09 08:51:36.457 [INFO] com.dreamteam.model2.Floor: Queue at floor7, elevator0, queue size: 1
+2021.12.09 08:51:36.459 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 100, Start floor: 7, Destination floor: 18, ElevatorA0
+2021.12.09 08:51:36.459 [INFO] com.dreamteam.model2.Elevator: User Passenger30 entered Elevator4, active users: 1
+2021.12.09 08:51:36.460 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA4 goes to floor 15, direction: DOWN
+2021.12.09 08:51:36.531 [INFO] com.dreamteam.model2.Floor: Queue at floor28, elevator4, queue size: 1
+2021.12.09 08:51:36.532 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 101, Start floor: 28, Destination floor: 24, ElevatorA4
+2021.12.09 08:51:36.570 [INFO] com.dreamteam.model2.Floor: Queue at floor4, elevator1, queue size: 1
+2021.12.09 08:51:36.571 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 102, Start floor: 4, Destination floor: 27, ElevatorA1
+2021.12.09 08:51:36.637 [INFO] com.dreamteam.model2.Floor: Queue at floor22, elevator3, queue size: 1
+2021.12.09 08:51:36.638 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 103, Start floor: 22, Destination floor: 23, ElevatorA3
+2021.12.09 08:51:36.693 [INFO] com.dreamteam.model2.Elevator: Elevator1, current floor: 13
+2021.12.09 08:51:36.693 [INFO] com.dreamteam.model2.Elevator: User Passenger90 added to Elevator1 waiting list, size: 12
+2021.12.09 08:51:36.693 [INFO] com.dreamteam.model2.Elevator: User Passenger102 added to Elevator1 waiting list, size: 13
+2021.12.09 08:51:36.695 [INFO] com.dreamteam.model2.Elevator: User Passenger96 added to Elevator1 waiting list, size: 14
+2021.12.09 08:51:36.697 [INFO] com.dreamteam.model2.Elevator: User Passenger92 added to Elevator1 waiting list, size: 15
+2021.12.09 08:51:36.697 [INFO] com.dreamteam.model2.Elevator: User Passenger91 added to Elevator1 waiting list, size: 16
+2021.12.09 08:51:36.708 [INFO] com.dreamteam.model2.Floor: Queue at floor13, elevator1, queue size: 1
+2021.12.09 08:51:36.709 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 104, Start floor: 13, Destination floor: 20, ElevatorA1
+2021.12.09 08:51:36.710 [INFO] com.dreamteam.model2.Elevator: User Passenger104 added to Elevator1 waiting list, size: 17
+2021.12.09 08:51:36.750 [INFO] com.dreamteam.model2.Floor: Queue at floor4, elevator0, queue size: 1
+2021.12.09 08:51:36.751 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 105, Start floor: 4, Destination floor: 3, ElevatorA0
+2021.12.09 08:51:36.756 [INFO] com.dreamteam.model2.Elevator: Elevator3, current floor: 6
+2021.12.09 08:51:36.756 [INFO] com.dreamteam.model2.Elevator: User Passenger103 added to Elevator3 waiting list, size: 28
+2021.12.09 08:51:36.756 [INFO] com.dreamteam.model2.Elevator: User Passenger99 added to Elevator3 waiting list, size: 29
+2021.12.09 08:51:36.756 [INFO] com.dreamteam.model2.Elevator: User Passenger94 added to Elevator3 waiting list, size: 30
+2021.12.09 08:51:36.787 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator1
+2021.12.09 08:51:36.787 [INFO] com.dreamteam.model2.Elevator: User Passenger104 entered Elevator1, active users: 1
+2021.12.09 08:51:36.788 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA1 goes to floor 20, direction: UP
+2021.12.09 08:51:36.805 [INFO] com.dreamteam.model2.Floor: Queue at floor0, elevator1, queue size: 1
+2021.12.09 08:51:36.805 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 106, Start floor: 0, Destination floor: 12, ElevatorA1
+2021.12.09 08:51:36.851 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator3
+2021.12.09 08:51:36.851 [INFO] com.dreamteam.model2.Elevator: User Passenger60 entered Elevator3, active users: 1
+2021.12.09 08:51:36.853 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA3 goes to floor 7, direction: UP
+2021.12.09 08:51:36.869 [INFO] com.dreamteam.model2.Floor: Queue at floor24, elevator2, queue size: 1
+2021.12.09 08:51:36.869 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 107, Start floor: 24, Destination floor: 29, ElevatorA2
+2021.12.09 08:51:36.914 [INFO] com.dreamteam.model2.Elevator: Elevator3, current floor: 7
+2021.12.09 08:51:36.930 [INFO] com.dreamteam.model2.Floor: Queue at floor15, elevator2, queue size: 1
+2021.12.09 08:51:36.931 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 108, Start floor: 15, Destination floor: 8, ElevatorA2
+2021.12.09 08:51:36.992 [INFO] com.dreamteam.model2.Floor: Queue at floor22, elevator1, queue size: 1
+2021.12.09 08:51:36.993 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 109, Start floor: 22, Destination floor: 25, ElevatorA1
+2021.12.09 08:51:37.006 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator3
+2021.12.09 08:51:37.006 [INFO] com.dreamteam.model2.Elevator: User Passenger26 entered Elevator3, active users: 1
+2021.12.09 08:51:37.007 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA3 goes to floor 8, direction: UP
+2021.12.09 08:51:37.055 [INFO] com.dreamteam.model2.Floor: Queue at floor1, elevator3, queue size: 2
+2021.12.09 08:51:37.056 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 110, Start floor: 1, Destination floor: 11, ElevatorA3
+2021.12.09 08:51:37.069 [INFO] com.dreamteam.model2.Elevator: Elevator3, current floor: 8
+2021.12.09 08:51:37.069 [INFO] com.dreamteam.model2.Elevator: User Passenger110 added to Elevator3 waiting list, size: 29
+2021.12.09 08:51:37.103 [INFO] com.dreamteam.model2.Floor: Queue at floor1, elevator4, queue size: 2
+2021.12.09 08:51:37.105 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 111, Start floor: 1, Destination floor: 16, ElevatorA4
+2021.12.09 08:51:37.162 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator3
+2021.12.09 08:51:37.162 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA3 goes to floor 11, direction: UP
+2021.12.09 08:51:37.172 [INFO] com.dreamteam.model2.Floor: Queue at floor13, elevator1, queue size: 1
+2021.12.09 08:51:37.173 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 112, Start floor: 13, Destination floor: 12, ElevatorA1
+2021.12.09 08:51:37.209 [INFO] com.dreamteam.model2.Elevator: Elevator4, current floor: 15
+2021.12.09 08:51:37.209 [INFO] com.dreamteam.model2.Elevator: User Passenger111 added to Elevator4 waiting list, size: 27
+2021.12.09 08:51:37.210 [INFO] com.dreamteam.model2.Elevator: User Passenger101 added to Elevator4 waiting list, size: 28
+2021.12.09 08:51:37.225 [INFO] com.dreamteam.model2.Elevator: Elevator1, current floor: 20
+2021.12.09 08:51:37.225 [INFO] com.dreamteam.model2.Elevator: User Passenger112 added to Elevator1 waiting list, size: 17
+2021.12.09 08:51:37.225 [INFO] com.dreamteam.model2.Elevator: User Passenger109 added to Elevator1 waiting list, size: 18
+2021.12.09 08:51:37.226 [INFO] com.dreamteam.model2.Elevator: User Passenger106 added to Elevator1 waiting list, size: 19
+2021.12.09 08:51:37.231 [INFO] com.dreamteam.model2.Floor: Queue at floor22, elevator0, queue size: 1
+2021.12.09 08:51:37.231 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 113, Start floor: 22, Destination floor: 24, ElevatorA0
+2021.12.09 08:51:37.257 [INFO] com.dreamteam.model2.Elevator: Elevator2, current floor: 5
+2021.12.09 08:51:37.257 [INFO] com.dreamteam.model2.Elevator: User Passenger89 added to Elevator2 waiting list, size: 4
+2021.12.09 08:51:37.257 [INFO] com.dreamteam.model2.Elevator: User Passenger108 added to Elevator2 waiting list, size: 5
+2021.12.09 08:51:37.257 [INFO] com.dreamteam.model2.Elevator: User Passenger107 added to Elevator2 waiting list, size: 6
+2021.12.09 08:51:37.290 [INFO] com.dreamteam.model2.Floor: Queue at floor15, elevator3, queue size: 2
+2021.12.09 08:51:37.291 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 114, Start floor: 15, Destination floor: 12, ElevatorA3
+2021.12.09 08:51:37.304 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator4
+2021.12.09 08:51:37.305 [INFO] com.dreamteam.model2.Elevator: User Passenger62 entered Elevator4, active users: 1
+2021.12.09 08:51:37.306 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA4 goes to floor 24, direction: UP
+2021.12.09 08:51:37.319 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator1
+2021.12.09 08:51:37.319 [INFO] com.dreamteam.model2.Elevator: User Passenger92 entered Elevator1, active users: 1
+2021.12.09 08:51:37.320 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA1 goes to floor 3, direction: DOWN
+2021.12.09 08:51:37.349 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator2
+2021.12.09 08:51:37.349 [INFO] com.dreamteam.model2.Elevator: Elevator3, current floor: 11
+2021.12.09 08:51:37.349 [INFO] com.dreamteam.model2.Elevator: User Passenger114 added to Elevator3 waiting list, size: 29
+2021.12.09 08:51:37.351 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA2 goes to floor 26, direction: UP
+2021.12.09 08:51:37.367 [INFO] com.dreamteam.model2.Floor: Queue at floor17, elevator1, queue size: 1
+2021.12.09 08:51:37.369 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 115, Start floor: 17, Destination floor: 5, ElevatorA1
+2021.12.09 08:51:37.417 [INFO] com.dreamteam.model2.Floor: Queue at floor21, elevator1, queue size: 1
+2021.12.09 08:51:37.417 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 116, Start floor: 21, Destination floor: 3, ElevatorA1
+2021.12.09 08:51:37.429 [INFO] com.dreamteam.model2.Elevator: No users left Elevator3
+2021.12.09 08:51:37.429 [INFO] com.dreamteam.model2.Elevator: User Passenger5 entered Elevator3, active users: 1
+2021.12.09 08:51:37.429 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA3 goes to floor 23, direction: UP
+2021.12.09 08:51:37.463 [INFO] com.dreamteam.model2.Floor: Queue at floor2, elevator2, queue size: 1
+2021.12.09 08:51:37.464 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 117, Start floor: 2, Destination floor: 24, ElevatorA2
+2021.12.09 08:51:37.477 [INFO] com.dreamteam.model2.Elevator: Elevator0, current floor: 1
+2021.12.09 08:51:37.478 [INFO] com.dreamteam.model2.Elevator: User Passenger113 added to Elevator0 waiting list, size: 8
+2021.12.09 08:51:37.478 [INFO] com.dreamteam.model2.Elevator: User Passenger105 added to Elevator0 waiting list, size: 9
+2021.12.09 08:51:37.478 [INFO] com.dreamteam.model2.Elevator: User Passenger100 added to Elevator0 waiting list, size: 10
+2021.12.09 08:51:37.527 [INFO] com.dreamteam.model2.Floor: Queue at floor7, elevator3, queue size: 1
+2021.12.09 08:51:37.528 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 118, Start floor: 7, Destination floor: 27, ElevatorA3
+2021.12.09 08:51:37.571 [INFO] com.dreamteam.model2.Elevator: No users left Elevator0
+2021.12.09 08:51:37.571 [INFO] com.dreamteam.model2.Elevator: User Passenger79 entered Elevator0, active users: 1
+2021.12.09 08:51:37.571 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA0 goes to floor 10, direction: UP
+2021.12.09 08:51:37.589 [INFO] com.dreamteam.model2.Floor: Queue at floor13, elevator0, queue size: 1
+2021.12.09 08:51:37.589 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 119, Start floor: 13, Destination floor: 16, ElevatorA0
+2021.12.09 08:51:37.650 [INFO] com.dreamteam.model2.Floor: Queue at floor2, elevator3, queue size: 2
+2021.12.09 08:51:37.650 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 120, Start floor: 2, Destination floor: 24, ElevatorA3
+2021.12.09 08:51:37.715 [INFO] com.dreamteam.model2.Floor: Queue at floor29, elevator3, queue size: 2
+2021.12.09 08:51:37.715 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 121, Start floor: 29, Destination floor: 0, ElevatorA3
+2021.12.09 08:51:37.770 [INFO] com.dreamteam.model2.Floor: Queue at floor9, elevator1, queue size: 1
+2021.12.09 08:51:37.771 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 122, Start floor: 9, Destination floor: 2, ElevatorA1
+2021.12.09 08:51:37.828 [INFO] com.dreamteam.model2.Floor: Queue at floor0, elevator0, queue size: 1
+2021.12.09 08:51:37.830 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 123, Start floor: 0, Destination floor: 5, ElevatorA0
+2021.12.09 08:51:37.869 [INFO] com.dreamteam.model2.Elevator: Elevator4, current floor: 24
+2021.12.09 08:51:37.898 [INFO] com.dreamteam.model2.Floor: Queue at floor9, elevator0, queue size: 1
+2021.12.09 08:51:37.898 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 124, Start floor: 9, Destination floor: 14, ElevatorA0
+2021.12.09 08:51:37.957 [INFO] com.dreamteam.model2.Floor: Queue at floor29, elevator4, queue size: 2
+2021.12.09 08:51:37.957 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 125, Start floor: 29, Destination floor: 28, ElevatorA4
+2021.12.09 08:51:37.957 [INFO] com.dreamteam.model2.Elevator: User Passenger125 added to Elevator4 waiting list, size: 28
+2021.12.09 08:51:37.963 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator4
+2021.12.09 08:51:37.964 [INFO] com.dreamteam.model2.Elevator: User Passenger25 entered Elevator4, active users: 1
+2021.12.09 08:51:37.965 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA4 goes to floor 13, direction: DOWN
+2021.12.09 08:51:38.087 [INFO] com.dreamteam.model2.Floor: Queue at floor2, elevator4, queue size: 2
+2021.12.09 08:51:38.087 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 126, Start floor: 2, Destination floor: 28, ElevatorA4
+2021.12.09 08:51:38.130 [INFO] com.dreamteam.model2.Floor: Queue at floor2, elevator1, queue size: 2
+2021.12.09 08:51:38.130 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 127, Start floor: 2, Destination floor: 26, ElevatorA1
+2021.12.09 08:51:38.136 [INFO] com.dreamteam.model2.Elevator: Elevator0, current floor: 10
+2021.12.09 08:51:38.136 [INFO] com.dreamteam.model2.Elevator: User Passenger124 added to Elevator0 waiting list, size: 11
+2021.12.09 08:51:38.137 [INFO] com.dreamteam.model2.Elevator: User Passenger123 added to Elevator0 waiting list, size: 12
+2021.12.09 08:51:38.137 [INFO] com.dreamteam.model2.Elevator: User Passenger119 added to Elevator0 waiting list, size: 13
+2021.12.09 08:51:38.158 [INFO] com.dreamteam.model2.Floor: Queue at floor10, elevator1, queue size: 1
+2021.12.09 08:51:38.159 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 128, Start floor: 10, Destination floor: 16, ElevatorA1
+2021.12.09 08:51:38.184 [INFO] com.dreamteam.model2.Elevator: Elevator3, current floor: 23
+2021.12.09 08:51:38.184 [INFO] com.dreamteam.model2.Elevator: User Passenger121 added to Elevator3 waiting list, size: 30
+2021.12.09 08:51:38.184 [INFO] com.dreamteam.model2.Elevator: User Passenger120 added to Elevator3 waiting list, size: 31
+2021.12.09 08:51:38.184 [INFO] com.dreamteam.model2.Elevator: User Passenger118 added to Elevator3 waiting list, size: 32
+2021.12.09 08:51:38.189 [INFO] com.dreamteam.model2.Floor: Queue at floor5, elevator4, queue size: 1
+2021.12.09 08:51:38.190 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 129, Start floor: 5, Destination floor: 1, ElevatorA4
+2021.12.09 08:51:38.230 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator0
+2021.12.09 08:51:38.230 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA0 goes to floor 16, direction: UP
+2021.12.09 08:51:38.251 [INFO] com.dreamteam.model2.Floor: Queue at floor8, elevator3, queue size: 1
+2021.12.09 08:51:38.251 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 130, Start floor: 8, Destination floor: 7, ElevatorA3
+2021.12.09 08:51:38.251 [INFO] com.dreamteam.model2.Elevator: User Passenger130 added to Elevator3 waiting list, size: 33
+2021.12.09 08:51:38.276 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator3
+2021.12.09 08:51:38.276 [INFO] com.dreamteam.model2.Elevator: User Passenger75 entered Elevator3, active users: 1
+2021.12.09 08:51:38.276 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA3 goes to floor 10, direction: DOWN
+2021.12.09 08:51:38.314 [INFO] com.dreamteam.model2.Floor: Queue at floor8, elevator0, queue size: 1
+2021.12.09 08:51:38.315 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 131, Start floor: 8, Destination floor: 20, ElevatorA0
+2021.12.09 08:51:38.372 [INFO] com.dreamteam.model2.Floor: Queue at floor28, elevator1, queue size: 1
+2021.12.09 08:51:38.373 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 132, Start floor: 28, Destination floor: 21, ElevatorA1
+2021.12.09 08:51:38.386 [INFO] com.dreamteam.model2.Elevator: Elevator1, current floor: 3
+2021.12.09 08:51:38.386 [INFO] com.dreamteam.model2.Elevator: User Passenger132 added to Elevator1 waiting list, size: 19
+2021.12.09 08:51:38.386 [INFO] com.dreamteam.model2.Elevator: User Passenger128 added to Elevator1 waiting list, size: 20
+2021.12.09 08:51:38.386 [INFO] com.dreamteam.model2.Elevator: User Passenger127 added to Elevator1 waiting list, size: 21
+2021.12.09 08:51:38.386 [INFO] com.dreamteam.model2.Elevator: User Passenger122 added to Elevator1 waiting list, size: 22
+2021.12.09 08:51:38.386 [INFO] com.dreamteam.model2.Elevator: User Passenger116 added to Elevator1 waiting list, size: 23
+2021.12.09 08:51:38.386 [INFO] com.dreamteam.model2.Elevator: User Passenger115 added to Elevator1 waiting list, size: 24
+2021.12.09 08:51:38.436 [INFO] com.dreamteam.model2.Floor: Queue at floor0, elevator2, queue size: 1
+2021.12.09 08:51:38.437 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 133, Start floor: 0, Destination floor: 23, ElevatorA2
+2021.12.09 08:51:38.481 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator1
+2021.12.09 08:51:38.481 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA1 goes to floor 2, direction: DOWN
+2021.12.09 08:51:38.503 [INFO] com.dreamteam.model2.Floor: Queue at floor8, elevator2, queue size: 1
+2021.12.09 08:51:38.504 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 134, Start floor: 8, Destination floor: 25, ElevatorA2
+2021.12.09 08:51:38.542 [INFO] com.dreamteam.model2.Elevator: Elevator1, current floor: 2
+2021.12.09 08:51:38.554 [INFO] com.dreamteam.model2.Floor: Queue at floor1, elevator0, queue size: 1
+2021.12.09 08:51:38.555 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 135, Start floor: 1, Destination floor: 19, ElevatorA0
+2021.12.09 08:51:38.606 [INFO] com.dreamteam.model2.Elevator: Elevator0, current floor: 16
+2021.12.09 08:51:38.606 [INFO] com.dreamteam.model2.Elevator: User Passenger135 added to Elevator0 waiting list, size: 13
+2021.12.09 08:51:38.606 [INFO] com.dreamteam.model2.Elevator: User Passenger131 added to Elevator0 waiting list, size: 14
+2021.12.09 08:51:38.612 [INFO] com.dreamteam.model2.Floor: Queue at floor26, elevator4, queue size: 1
+2021.12.09 08:51:38.613 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 136, Start floor: 26, Destination floor: 15, ElevatorA4
+2021.12.09 08:51:38.637 [INFO] com.dreamteam.model2.Elevator: No users left Elevator1
+2021.12.09 08:51:38.637 [INFO] com.dreamteam.model2.Elevator: User Passenger33 entered Elevator1, active users: 1
+2021.12.09 08:51:38.637 [INFO] com.dreamteam.model2.Elevator: User Passenger127 entered Elevator1, active users: 2
+2021.12.09 08:51:38.638 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA1 goes to floor 13, direction: UP
+2021.12.09 08:51:38.652 [INFO] com.dreamteam.model2.Elevator: Elevator4, current floor: 13
+2021.12.09 08:51:38.652 [INFO] com.dreamteam.model2.Elevator: User Passenger136 added to Elevator4 waiting list, size: 28
+2021.12.09 08:51:38.652 [INFO] com.dreamteam.model2.Elevator: User Passenger129 added to Elevator4 waiting list, size: 29
+2021.12.09 08:51:38.652 [INFO] com.dreamteam.model2.Elevator: User Passenger126 added to Elevator4 waiting list, size: 30
+2021.12.09 08:51:38.668 [INFO] com.dreamteam.model2.Elevator: Elevator2, current floor: 26
+2021.12.09 08:51:38.668 [INFO] com.dreamteam.model2.Elevator: User Passenger134 added to Elevator2 waiting list, size: 6
+2021.12.09 08:51:38.668 [INFO] com.dreamteam.model2.Elevator: User Passenger133 added to Elevator2 waiting list, size: 7
+2021.12.09 08:51:38.668 [INFO] com.dreamteam.model2.Elevator: User Passenger117 added to Elevator2 waiting list, size: 8
+2021.12.09 08:51:38.671 [INFO] com.dreamteam.model2.Floor: Queue at floor12, elevator1, queue size: 1
+2021.12.09 08:51:38.671 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 137, Start floor: 12, Destination floor: 21, ElevatorA1
+2021.12.09 08:51:38.700 [INFO] com.dreamteam.model2.Elevator: No users left Elevator0
+2021.12.09 08:51:38.700 [INFO] com.dreamteam.model2.Elevator: User Passenger77 entered Elevator0, active users: 1
+2021.12.09 08:51:38.700 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA0 goes to floor 0, direction: DOWN
+2021.12.09 08:51:38.733 [INFO] com.dreamteam.model2.Floor: Queue at floor24, elevator4, queue size: 1
+2021.12.09 08:51:38.734 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 138, Start floor: 24, Destination floor: 3, ElevatorA4
+2021.12.09 08:51:38.734 [INFO] com.dreamteam.model2.Elevator: User Passenger138 added to Elevator4 waiting list, size: 31
+2021.12.09 08:51:38.747 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator4
+2021.12.09 08:51:38.748 [INFO] com.dreamteam.model2.Elevator: User Passenger97 entered Elevator4, active users: 1
+2021.12.09 08:51:38.748 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA4 goes to floor 26, direction: UP
+2021.12.09 08:51:38.762 [INFO] com.dreamteam.model2.Elevator: No users left Elevator2
+2021.12.09 08:51:38.762 [INFO] com.dreamteam.model2.Elevator: User Passenger87 entered Elevator2, active users: 1
+2021.12.09 08:51:38.762 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA2 goes to floor 0, direction: DOWN
+2021.12.09 08:51:38.797 [INFO] com.dreamteam.model2.Floor: Queue at floor27, elevator4, queue size: 1
+2021.12.09 08:51:38.798 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 139, Start floor: 27, Destination floor: 24, ElevatorA4
+2021.12.09 08:51:38.847 [INFO] com.dreamteam.model2.Floor: Queue at floor2, elevator1, queue size: 1
+2021.12.09 08:51:38.848 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 140, Start floor: 2, Destination floor: 16, ElevatorA1
+2021.12.09 08:51:38.927 [INFO] com.dreamteam.model2.Floor: Queue at floor16, elevator0, queue size: 1
+2021.12.09 08:51:38.927 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 141, Start floor: 16, Destination floor: 6, ElevatorA0
+2021.12.09 08:51:38.974 [INFO] com.dreamteam.model2.Floor: Queue at floor10, elevator0, queue size: 1
+2021.12.09 08:51:38.977 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 142, Start floor: 10, Destination floor: 2, ElevatorA0
+2021.12.09 08:51:39.033 [INFO] com.dreamteam.model2.Floor: Queue at floor5, elevator1, queue size: 1
+2021.12.09 08:51:39.034 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 143, Start floor: 5, Destination floor: 27, ElevatorA1
+2021.12.09 08:51:39.094 [INFO] com.dreamteam.model2.Elevator: Elevator3, current floor: 10
+2021.12.09 08:51:39.097 [INFO] com.dreamteam.model2.Floor: Queue at floor21, elevator0, queue size: 1
+2021.12.09 08:51:39.098 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 144, Start floor: 21, Destination floor: 12, ElevatorA0
+2021.12.09 08:51:39.168 [INFO] com.dreamteam.model2.Floor: Queue at floor17, elevator0, queue size: 1
+2021.12.09 08:51:39.168 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 145, Start floor: 17, Destination floor: 8, ElevatorA0
+2021.12.09 08:51:39.190 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator3
+2021.12.09 08:51:39.198 [INFO] com.dreamteam.model2.Elevator: User Passenger19 entered Elevator3, active users: 1
+2021.12.09 08:51:39.201 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA3 goes to floor 24, direction: UP
+2021.12.09 08:51:39.217 [INFO] com.dreamteam.model2.Floor: Queue at floor28, elevator0, queue size: 1
+2021.12.09 08:51:39.217 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 146, Start floor: 28, Destination floor: 13, ElevatorA0
+2021.12.09 08:51:39.268 [INFO] com.dreamteam.model2.Floor: Queue at floor9, elevator2, queue size: 1
+2021.12.09 08:51:39.269 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 147, Start floor: 9, Destination floor: 2, ElevatorA2
+2021.12.09 08:51:39.330 [INFO] com.dreamteam.model2.Elevator: Elevator1, current floor: 13
+2021.12.09 08:51:39.330 [INFO] com.dreamteam.model2.Elevator: User Passenger143 added to Elevator1 waiting list, size: 23
+2021.12.09 08:51:39.331 [INFO] com.dreamteam.model2.Elevator: User Passenger140 added to Elevator1 waiting list, size: 24
+2021.12.09 08:51:39.331 [INFO] com.dreamteam.model2.Elevator: User Passenger137 added to Elevator1 waiting list, size: 25
+2021.12.09 08:51:39.363 [INFO] com.dreamteam.model2.Floor: Queue at floor4, elevator2, queue size: 1
+2021.12.09 08:51:39.365 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 148, Start floor: 4, Destination floor: 6, ElevatorA2
+2021.12.09 08:51:39.402 [INFO] com.dreamteam.model2.Floor: Queue at floor10, elevator3, queue size: 1
+2021.12.09 08:51:39.402 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 149, Start floor: 10, Destination floor: 5, ElevatorA3
+2021.12.09 08:51:39.424 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator1
+2021.12.09 08:51:39.424 [INFO] com.dreamteam.model2.Elevator: User Passenger112 entered Elevator1, active users: 2
+2021.12.09 08:51:39.425 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA1 goes to floor 26, direction: UP
+2021.12.09 08:51:39.465 [INFO] com.dreamteam.model2.Floor: Queue at floor3, elevator1, queue size: 1
+2021.12.09 08:51:39.465 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 150, Start floor: 3, Destination floor: 13, ElevatorA1
+2021.12.09 08:51:39.504 [INFO] com.dreamteam.model2.Floor: Queue at floor2, elevator1, queue size: 2
+2021.12.09 08:51:39.505 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 151, Start floor: 2, Destination floor: 29, ElevatorA1
+2021.12.09 08:51:39.561 [INFO] com.dreamteam.model2.Elevator: Elevator4, current floor: 26
+2021.12.09 08:51:39.561 [INFO] com.dreamteam.model2.Elevator: User Passenger139 added to Elevator4 waiting list, size: 31
+2021.12.09 08:51:39.562 [INFO] com.dreamteam.model2.Floor: Queue at floor19, elevator0, queue size: 1
+2021.12.09 08:51:39.563 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 152, Start floor: 19, Destination floor: 29, ElevatorA0
+2021.12.09 08:51:39.628 [INFO] com.dreamteam.model2.Floor: Queue at floor18, elevator0, queue size: 1
+2021.12.09 08:51:39.629 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 153, Start floor: 18, Destination floor: 13, ElevatorA0
+2021.12.09 08:51:39.641 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator4
+2021.12.09 08:51:39.644 [INFO] com.dreamteam.model2.Elevator: User Passenger136 entered Elevator4, active users: 1
+2021.12.09 08:51:39.645 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA4 goes to floor 15, direction: DOWN
+2021.12.09 08:51:39.690 [INFO] com.dreamteam.model2.Floor: Queue at floor14, elevator0, queue size: 1
+2021.12.09 08:51:39.691 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 154, Start floor: 14, Destination floor: 23, ElevatorA0
+2021.12.09 08:51:39.703 [INFO] com.dreamteam.model2.Elevator: Elevator0, current floor: 0
+2021.12.09 08:51:39.704 [INFO] com.dreamteam.model2.Elevator: User Passenger154 added to Elevator0 waiting list, size: 15
+2021.12.09 08:51:39.704 [INFO] com.dreamteam.model2.Elevator: User Passenger153 added to Elevator0 waiting list, size: 16
+2021.12.09 08:51:39.704 [INFO] com.dreamteam.model2.Elevator: User Passenger152 added to Elevator0 waiting list, size: 17
+2021.12.09 08:51:39.705 [INFO] com.dreamteam.model2.Elevator: User Passenger146 added to Elevator0 waiting list, size: 18
+2021.12.09 08:51:39.705 [INFO] com.dreamteam.model2.Elevator: User Passenger145 added to Elevator0 waiting list, size: 19
+2021.12.09 08:51:39.706 [INFO] com.dreamteam.model2.Elevator: User Passenger144 added to Elevator0 waiting list, size: 20
+2021.12.09 08:51:39.706 [INFO] com.dreamteam.model2.Elevator: User Passenger142 added to Elevator0 waiting list, size: 21
+2021.12.09 08:51:39.706 [INFO] com.dreamteam.model2.Elevator: User Passenger141 added to Elevator0 waiting list, size: 22
+2021.12.09 08:51:39.750 [INFO] com.dreamteam.model2.Floor: Queue at floor15, elevator4, queue size: 1
+2021.12.09 08:51:39.751 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 155, Start floor: 15, Destination floor: 13, ElevatorA4
+2021.12.09 08:51:39.796 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator0
+2021.12.09 08:51:39.796 [INFO] com.dreamteam.model2.Elevator: User Passenger123 entered Elevator0, active users: 1
+2021.12.09 08:51:39.797 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA0 goes to floor 5, direction: UP
+2021.12.09 08:51:39.816 [INFO] com.dreamteam.model2.Floor: Queue at floor21, elevator2, queue size: 1
+2021.12.09 08:51:39.817 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 156, Start floor: 21, Destination floor: 18, ElevatorA2
+2021.12.09 08:51:39.866 [INFO] com.dreamteam.model2.Floor: Queue at floor3, elevator0, queue size: 1
+2021.12.09 08:51:39.866 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 157, Start floor: 3, Destination floor: 4, ElevatorA0
+2021.12.09 08:51:39.928 [INFO] com.dreamteam.model2.Floor: Queue at floor3, elevator2, queue size: 1
+2021.12.09 08:51:39.928 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 158, Start floor: 3, Destination floor: 29, ElevatorA2
+2021.12.09 08:51:39.996 [INFO] com.dreamteam.model2.Floor: Queue at floor21, elevator3, queue size: 2
+2021.12.09 08:51:39.996 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 159, Start floor: 21, Destination floor: 18, ElevatorA3
+2021.12.09 08:51:40.051 [INFO] com.dreamteam.model2.Floor: Queue at floor3, elevator3, queue size: 2
+2021.12.09 08:51:40.051 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 160, Start floor: 3, Destination floor: 17, ElevatorA3
+2021.12.09 08:51:40.076 [INFO] com.dreamteam.model2.Elevator: Elevator3, current floor: 24
+2021.12.09 08:51:40.076 [INFO] com.dreamteam.model2.Elevator: User Passenger160 added to Elevator3 waiting list, size: 32
+2021.12.09 08:51:40.076 [INFO] com.dreamteam.model2.Elevator: User Passenger159 added to Elevator3 waiting list, size: 33
+2021.12.09 08:51:40.077 [INFO] com.dreamteam.model2.Elevator: User Passenger149 added to Elevator3 waiting list, size: 34
+2021.12.09 08:51:40.106 [INFO] com.dreamteam.model2.Elevator: Elevator0, current floor: 5
+2021.12.09 08:51:40.106 [INFO] com.dreamteam.model2.Elevator: User Passenger157 added to Elevator0 waiting list, size: 22
+2021.12.09 08:51:40.109 [INFO] com.dreamteam.model2.Floor: Queue at floor9, elevator3, queue size: 2
+2021.12.09 08:51:40.110 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 161, Start floor: 9, Destination floor: 11, ElevatorA3
+2021.12.09 08:51:40.110 [INFO] com.dreamteam.model2.Elevator: User Passenger161 added to Elevator3 waiting list, size: 35
+2021.12.09 08:51:40.168 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator3
+2021.12.09 08:51:40.168 [INFO] com.dreamteam.model2.Elevator: User Passenger18 entered Elevator3, active users: 1
+2021.12.09 08:51:40.168 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA3 goes to floor 22, direction: DOWN
+2021.12.09 08:51:40.171 [INFO] com.dreamteam.model2.Floor: Queue at floor18, elevator2, queue size: 1
+2021.12.09 08:51:40.172 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 162, Start floor: 18, Destination floor: 28, ElevatorA2
+2021.12.09 08:51:40.202 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator0
+2021.12.09 08:51:40.202 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA0 goes to floor 29, direction: UP
+2021.12.09 08:51:40.231 [INFO] com.dreamteam.model2.Elevator: Elevator1, current floor: 26
+2021.12.09 08:51:40.231 [INFO] com.dreamteam.model2.Elevator: User Passenger151 added to Elevator1 waiting list, size: 25
+2021.12.09 08:51:40.231 [INFO] com.dreamteam.model2.Elevator: User Passenger150 added to Elevator1 waiting list, size: 26
+2021.12.09 08:51:40.241 [INFO] com.dreamteam.model2.Floor: Queue at floor17, elevator2, queue size: 1
+2021.12.09 08:51:40.242 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 163, Start floor: 17, Destination floor: 27, ElevatorA2
+2021.12.09 08:51:40.282 [INFO] com.dreamteam.model2.Floor: Queue at floor5, elevator0, queue size: 1
+2021.12.09 08:51:40.282 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 164, Start floor: 5, Destination floor: 13, ElevatorA0
+2021.12.09 08:51:40.295 [INFO] com.dreamteam.model2.Elevator: Elevator3, current floor: 22
+2021.12.09 08:51:40.326 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator1
+2021.12.09 08:51:40.326 [INFO] com.dreamteam.model2.Elevator: Elevator4, current floor: 15
+2021.12.09 08:51:40.326 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA1 goes to floor 12, direction: DOWN
+2021.12.09 08:51:40.326 [INFO] com.dreamteam.model2.Elevator: User Passenger155 added to Elevator4 waiting list, size: 31
+2021.12.09 08:51:40.347 [INFO] com.dreamteam.model2.Floor: Queue at floor15, elevator4, queue size: 2
+2021.12.09 08:51:40.347 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 165, Start floor: 15, Destination floor: 19, ElevatorA4
+2021.12.09 08:51:40.347 [INFO] com.dreamteam.model2.Elevator: User Passenger165 added to Elevator4 waiting list, size: 32
+2021.12.09 08:51:40.389 [INFO] com.dreamteam.model2.Elevator: Elevator2, current floor: 0
+2021.12.09 08:51:40.389 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator3
+2021.12.09 08:51:40.389 [INFO] com.dreamteam.model2.Elevator: User Passenger163 added to Elevator2 waiting list, size: 9
+2021.12.09 08:51:40.389 [INFO] com.dreamteam.model2.Elevator: User Passenger103 entered Elevator3, active users: 1
+2021.12.09 08:51:40.389 [INFO] com.dreamteam.model2.Elevator: User Passenger162 added to Elevator2 waiting list, size: 10
+2021.12.09 08:51:40.389 [INFO] com.dreamteam.model2.Elevator: User Passenger158 added to Elevator2 waiting list, size: 11
+2021.12.09 08:51:40.389 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA3 goes to floor 23, direction: UP
+2021.12.09 08:51:40.390 [INFO] com.dreamteam.model2.Elevator: User Passenger156 added to Elevator2 waiting list, size: 12
+2021.12.09 08:51:40.390 [INFO] com.dreamteam.model2.Elevator: User Passenger148 added to Elevator2 waiting list, size: 13
+2021.12.09 08:51:40.390 [INFO] com.dreamteam.model2.Elevator: User Passenger147 added to Elevator2 waiting list, size: 14
+2021.12.09 08:51:40.406 [INFO] com.dreamteam.model2.Floor: Queue at floor18, elevator3, queue size: 2
+2021.12.09 08:51:40.406 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 166, Start floor: 18, Destination floor: 6, ElevatorA3
+2021.12.09 08:51:40.420 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator4
+2021.12.09 08:51:40.420 [INFO] com.dreamteam.model2.Elevator: User Passenger155 entered Elevator4, active users: 1
+2021.12.09 08:51:40.420 [INFO] com.dreamteam.model2.Elevator: User Passenger165 entered Elevator4, active users: 2
+2021.12.09 08:51:40.421 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA4 goes to floor 13, direction: DOWN
+2021.12.09 08:51:40.451 [INFO] com.dreamteam.model2.Elevator: Elevator3, current floor: 23
+2021.12.09 08:51:40.451 [INFO] com.dreamteam.model2.Elevator: User Passenger166 added to Elevator3 waiting list, size: 34
+2021.12.09 08:51:40.468 [INFO] com.dreamteam.model2.Floor: Queue at floor29, elevator1, queue size: 2
+2021.12.09 08:51:40.468 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 167, Start floor: 29, Destination floor: 2, ElevatorA1
+2021.12.09 08:51:40.483 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator2
+2021.12.09 08:51:40.483 [INFO] com.dreamteam.model2.Elevator: User Passenger133 entered Elevator2, active users: 1
+2021.12.09 08:51:40.484 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA2 goes to floor 23, direction: UP
+2021.12.09 08:51:40.532 [INFO] com.dreamteam.model2.Floor: Queue at floor25, elevator1, queue size: 1
+2021.12.09 08:51:40.532 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 168, Start floor: 25, Destination floor: 24, ElevatorA1
+2021.12.09 08:51:40.546 [INFO] com.dreamteam.model2.Elevator: Elevator4, current floor: 13
+2021.12.09 08:51:40.546 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator3
+2021.12.09 08:51:40.546 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA3 goes to floor 9, direction: DOWN
+2021.12.09 08:51:40.597 [INFO] com.dreamteam.model2.Floor: Queue at floor6, elevator3, queue size: 1
+2021.12.09 08:51:40.598 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 169, Start floor: 6, Destination floor: 21, ElevatorA3
+2021.12.09 08:51:40.641 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator4
+2021.12.09 08:51:40.641 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA4 goes to floor 19, direction: UP
+2021.12.09 08:51:40.667 [INFO] com.dreamteam.model2.Floor: Queue at floor15, elevator4, queue size: 1
+2021.12.09 08:51:40.668 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 170, Start floor: 15, Destination floor: 16, ElevatorA4
+2021.12.09 08:51:40.713 [INFO] com.dreamteam.model2.Floor: Queue at floor6, elevator2, queue size: 1
+2021.12.09 08:51:40.714 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 171, Start floor: 6, Destination floor: 7, ElevatorA2
+2021.12.09 08:51:40.772 [INFO] com.dreamteam.model2.Floor: Queue at floor9, elevator4, queue size: 2
+2021.12.09 08:51:40.772 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 172, Start floor: 9, Destination floor: 19, ElevatorA4
+2021.12.09 08:51:40.836 [INFO] com.dreamteam.model2.Floor: Queue at floor7, elevator2, queue size: 1
+2021.12.09 08:51:40.836 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 173, Start floor: 7, Destination floor: 12, ElevatorA2
+2021.12.09 08:51:40.917 [INFO] com.dreamteam.model2.Floor: Queue at floor4, elevator3, queue size: 2
+2021.12.09 08:51:40.918 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 174, Start floor: 4, Destination floor: 1, ElevatorA3
+2021.12.09 08:51:41.003 [INFO] com.dreamteam.model2.Floor: Queue at floor5, elevator2, queue size: 1
+2021.12.09 08:51:41.005 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 175, Start floor: 5, Destination floor: 12, ElevatorA2
+2021.12.09 08:51:41.014 [INFO] com.dreamteam.model2.Elevator: Elevator4, current floor: 19
+2021.12.09 08:51:41.014 [INFO] com.dreamteam.model2.Elevator: User Passenger172 added to Elevator4 waiting list, size: 31
+2021.12.09 08:51:41.015 [INFO] com.dreamteam.model2.Elevator: User Passenger170 added to Elevator4 waiting list, size: 32
+2021.12.09 08:51:41.088 [INFO] com.dreamteam.model2.Floor: Queue at floor14, elevator2, queue size: 1
+2021.12.09 08:51:41.088 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 176, Start floor: 14, Destination floor: 3, ElevatorA2
+2021.12.09 08:51:41.108 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator4
+2021.12.09 08:51:41.108 [INFO] com.dreamteam.model2.Elevator: User Passenger85 entered Elevator4, active users: 1
+2021.12.09 08:51:41.109 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA4 goes to floor 3, direction: DOWN
+2021.12.09 08:51:41.137 [INFO] com.dreamteam.model2.Floor: Queue at floor4, elevator4, queue size: 2
+2021.12.09 08:51:41.138 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 177, Start floor: 4, Destination floor: 9, ElevatorA4
+2021.12.09 08:51:41.203 [INFO] com.dreamteam.model2.Elevator: Elevator1, current floor: 12
+2021.12.09 08:51:41.203 [INFO] com.dreamteam.model2.Elevator: User Passenger168 added to Elevator1 waiting list, size: 27
+2021.12.09 08:51:41.203 [INFO] com.dreamteam.model2.Elevator: User Passenger167 added to Elevator1 waiting list, size: 28
+2021.12.09 08:51:41.228 [INFO] com.dreamteam.model2.Floor: Queue at floor19, elevator4, queue size: 1
+2021.12.09 08:51:41.228 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 178, Start floor: 19, Destination floor: 1, ElevatorA4
+2021.12.09 08:51:41.256 [INFO] com.dreamteam.model2.Floor: Queue at floor10, elevator2, queue size: 1
+2021.12.09 08:51:41.256 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 179, Start floor: 10, Destination floor: 25, ElevatorA2
+2021.12.09 08:51:41.296 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator1
+2021.12.09 08:51:41.328 [INFO] com.dreamteam.model2.Floor: Queue at floor22, elevator3, queue size: 1
+2021.12.09 08:51:41.329 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 180, Start floor: 22, Destination floor: 14, ElevatorA3
+2021.12.09 08:51:41.336 [INFO] com.dreamteam.model2.Elevator: User Passenger137 entered Elevator1, active users: 1
+2021.12.09 08:51:41.336 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA1 goes to floor 21, direction: UP
+2021.12.09 08:51:41.436 [INFO] com.dreamteam.model2.Floor: Queue at floor9, elevator1, queue size: 2
+2021.12.09 08:51:41.436 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 181, Start floor: 9, Destination floor: 7, ElevatorA1
+2021.12.09 08:51:41.448 [INFO] com.dreamteam.model2.Floor: Queue at floor8, elevator3, queue size: 2
+2021.12.09 08:51:41.448 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 182, Start floor: 8, Destination floor: 29, ElevatorA3
+2021.12.09 08:51:41.454 [INFO] com.dreamteam.model2.Elevator: Elevator3, current floor: 9
+2021.12.09 08:51:41.454 [INFO] com.dreamteam.model2.Elevator: User Passenger182 added to Elevator3 waiting list, size: 34
+2021.12.09 08:51:41.454 [INFO] com.dreamteam.model2.Elevator: User Passenger180 added to Elevator3 waiting list, size: 35
+2021.12.09 08:51:41.454 [INFO] com.dreamteam.model2.Elevator: User Passenger174 added to Elevator3 waiting list, size: 36
+2021.12.09 08:51:41.455 [INFO] com.dreamteam.model2.Elevator: User Passenger169 added to Elevator3 waiting list, size: 37
+2021.12.09 08:51:41.547 [INFO] com.dreamteam.model2.Floor: Queue at floor25, elevator0, queue size: 1
+2021.12.09 08:51:41.547 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 183, Start floor: 25, Destination floor: 23, ElevatorA0
+2021.12.09 08:51:41.548 [INFO] com.dreamteam.model2.Elevator: No users left Elevator3
+2021.12.09 08:51:41.548 [INFO] com.dreamteam.model2.Elevator: User Passenger6 entered Elevator3, active users: 1
+2021.12.09 08:51:41.548 [INFO] com.dreamteam.model2.Floor: Queue at floor7, elevator3, queue size: 2
+2021.12.09 08:51:41.625 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 184, Start floor: 7, Destination floor: 2, ElevatorA3
+2021.12.09 08:51:41.625 [INFO] com.dreamteam.model2.Floor: Queue at floor19, elevator2, queue size: 1
+2021.12.09 08:51:41.626 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 185, Start floor: 19, Destination floor: 18, ElevatorA2
+2021.12.09 08:51:41.626 [INFO] com.dreamteam.model2.Elevator: User Passenger161 entered Elevator3, active users: 2
+2021.12.09 08:51:41.627 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA3 goes to floor 11, direction: UP
+2021.12.09 08:51:41.660 [INFO] com.dreamteam.model2.Floor: Queue at floor26, elevator4, queue size: 1
+2021.12.09 08:51:41.661 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 186, Start floor: 26, Destination floor: 1, ElevatorA4
+2021.12.09 08:51:41.685 [INFO] com.dreamteam.model2.Floor: Queue at floor12, elevator1, queue size: 1
+2021.12.09 08:51:41.686 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 187, Start floor: 12, Destination floor: 2, ElevatorA1
+2021.12.09 08:51:41.741 [INFO] com.dreamteam.model2.Floor: Queue at floor6, elevator3, queue size: 2
+2021.12.09 08:51:41.742 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 188, Start floor: 6, Destination floor: 28, ElevatorA3
+2021.12.09 08:51:41.748 [INFO] com.dreamteam.model2.Elevator: Elevator3, current floor: 11
+2021.12.09 08:51:41.748 [INFO] com.dreamteam.model2.Elevator: Elevator0, current floor: 29
+2021.12.09 08:51:41.748 [INFO] com.dreamteam.model2.Elevator: User Passenger184 added to Elevator3 waiting list, size: 37
+2021.12.09 08:51:41.748 [INFO] com.dreamteam.model2.Elevator: User Passenger183 added to Elevator0 waiting list, size: 22
+2021.12.09 08:51:41.748 [INFO] com.dreamteam.model2.Elevator: User Passenger188 added to Elevator3 waiting list, size: 38
+2021.12.09 08:51:41.749 [INFO] com.dreamteam.model2.Elevator: User Passenger164 added to Elevator0 waiting list, size: 23
+2021.12.09 08:51:41.782 [INFO] com.dreamteam.model2.Floor: Queue at floor29, elevator0, queue size: 2
+2021.12.09 08:51:41.783 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 189, Start floor: 29, Destination floor: 18, ElevatorA0
+2021.12.09 08:51:41.783 [INFO] com.dreamteam.model2.Elevator: User Passenger189 added to Elevator0 waiting list, size: 24
+2021.12.09 08:51:41.841 [INFO] com.dreamteam.model2.Elevator: No users left Elevator0
+2021.12.09 08:51:41.841 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator3
+2021.12.09 08:51:41.841 [INFO] com.dreamteam.model2.Elevator: User Passenger69 entered Elevator0, active users: 1
+2021.12.09 08:51:41.841 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA3 goes to floor 24, direction: UP
+2021.12.09 08:51:41.857 [INFO] com.dreamteam.model2.Floor: Queue at floor18, elevator4, queue size: 2
+2021.12.09 08:51:41.859 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 190, Start floor: 18, Destination floor: 10, ElevatorA4
+2021.12.09 08:51:41.860 [INFO] com.dreamteam.model2.Elevator: User Passenger189 entered Elevator0, active users: 2
+2021.12.09 08:51:41.860 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA0 goes to floor 21, direction: DOWN
+2021.12.09 08:51:41.937 [INFO] com.dreamteam.model2.Elevator: Elevator1, current floor: 21
+2021.12.09 08:51:41.937 [INFO] com.dreamteam.model2.Elevator: User Passenger187 added to Elevator1 waiting list, size: 28
+2021.12.09 08:51:41.937 [INFO] com.dreamteam.model2.Elevator: User Passenger181 added to Elevator1 waiting list, size: 29
+2021.12.09 08:51:41.981 [INFO] com.dreamteam.model2.Floor: Queue at floor25, elevator2, queue size: 1
+2021.12.09 08:51:41.982 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 191, Start floor: 25, Destination floor: 22, ElevatorA2
+2021.12.09 08:51:42.001 [INFO] com.dreamteam.model2.Elevator: Elevator2, current floor: 23
+2021.12.09 08:51:42.001 [INFO] com.dreamteam.model2.Elevator: User Passenger191 added to Elevator2 waiting list, size: 14
+2021.12.09 08:51:42.001 [INFO] com.dreamteam.model2.Elevator: User Passenger185 added to Elevator2 waiting list, size: 15
+2021.12.09 08:51:42.001 [INFO] com.dreamteam.model2.Elevator: User Passenger179 added to Elevator2 waiting list, size: 16
+2021.12.09 08:51:42.001 [INFO] com.dreamteam.model2.Elevator: User Passenger176 added to Elevator2 waiting list, size: 17
+2021.12.09 08:51:42.001 [INFO] com.dreamteam.model2.Elevator: User Passenger175 added to Elevator2 waiting list, size: 18
+2021.12.09 08:51:42.001 [INFO] com.dreamteam.model2.Elevator: User Passenger173 added to Elevator2 waiting list, size: 19
+2021.12.09 08:51:42.001 [INFO] com.dreamteam.model2.Elevator: User Passenger171 added to Elevator2 waiting list, size: 20
+2021.12.09 08:51:42.003 [INFO] com.dreamteam.model2.Floor: Queue at floor10, elevator3, queue size: 2
+2021.12.09 08:51:42.003 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 192, Start floor: 10, Destination floor: 4, ElevatorA3
+2021.12.09 08:51:42.032 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator1
+2021.12.09 08:51:42.047 [INFO] com.dreamteam.model2.Floor: Queue at floor7, elevator4, queue size: 2
+2021.12.09 08:51:42.047 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 193, Start floor: 7, Destination floor: 3, ElevatorA4
+2021.12.09 08:51:42.048 [INFO] com.dreamteam.model2.Elevator: User Passenger116 entered Elevator1, active users: 1
+2021.12.09 08:51:42.048 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA1 goes to floor 3, direction: DOWN
+2021.12.09 08:51:42.094 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator2
+2021.12.09 08:51:42.094 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA2 goes to floor 1, direction: DOWN
+2021.12.09 08:51:42.106 [INFO] com.dreamteam.model2.Floor: Queue at floor2, elevator0, queue size: 2
+2021.12.09 08:51:42.107 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 194, Start floor: 2, Destination floor: 8, ElevatorA0
+2021.12.09 08:51:42.126 [INFO] com.dreamteam.model2.Elevator: Elevator4, current floor: 3
+2021.12.09 08:51:42.127 [INFO] com.dreamteam.model2.Elevator: User Passenger193 added to Elevator4 waiting list, size: 32
+2021.12.09 08:51:42.127 [INFO] com.dreamteam.model2.Elevator: User Passenger190 added to Elevator4 waiting list, size: 33
+2021.12.09 08:51:42.127 [INFO] com.dreamteam.model2.Elevator: User Passenger186 added to Elevator4 waiting list, size: 34
+2021.12.09 08:51:42.127 [INFO] com.dreamteam.model2.Elevator: User Passenger178 added to Elevator4 waiting list, size: 35
+2021.12.09 08:51:42.127 [INFO] com.dreamteam.model2.Elevator: User Passenger177 added to Elevator4 waiting list, size: 36
+2021.12.09 08:51:42.146 [INFO] com.dreamteam.model2.Floor: Queue at floor11, elevator3, queue size: 1
+2021.12.09 08:51:42.147 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 195, Start floor: 11, Destination floor: 28, ElevatorA3
+2021.12.09 08:51:42.220 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator4
+2021.12.09 08:51:42.220 [INFO] com.dreamteam.model2.Elevator: User Passenger44 entered Elevator4, active users: 1
+2021.12.09 08:51:42.220 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA4 goes to floor 4, direction: UP
+2021.12.09 08:51:42.248 [INFO] com.dreamteam.model2.Floor: Queue at floor14, elevator3, queue size: 2
+2021.12.09 08:51:42.248 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 196, Start floor: 14, Destination floor: 11, ElevatorA3
+2021.12.09 08:51:42.283 [INFO] com.dreamteam.model2.Elevator: Elevator4, current floor: 4
+2021.12.09 08:51:42.299 [INFO] com.dreamteam.model2.Floor: Queue at floor22, elevator2, queue size: 1
+2021.12.09 08:51:42.300 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 197, Start floor: 22, Destination floor: 8, ElevatorA2
+2021.12.09 08:51:42.361 [INFO] com.dreamteam.model2.Elevator: Elevator0, current floor: 21
+2021.12.09 08:51:42.362 [INFO] com.dreamteam.model2.Elevator: User Passenger194 added to Elevator0 waiting list, size: 24
+2021.12.09 08:51:42.377 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator4
+2021.12.09 08:51:42.377 [INFO] com.dreamteam.model2.Elevator: User Passenger68 entered Elevator4, active users: 1
+2021.12.09 08:51:42.391 [INFO] com.dreamteam.model2.Floor: Queue at floor22, elevator3, queue size: 2
+2021.12.09 08:51:42.391 [INFO] com.dreamteam.model2.Elevator: User Passenger177 entered Elevator4, active users: 2
+2021.12.09 08:51:42.391 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 198, Start floor: 22, Destination floor: 13, ElevatorA3
+2021.12.09 08:51:42.392 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA4 goes to floor 9, direction: UP
+2021.12.09 08:51:42.423 [INFO] com.dreamteam.model2.Floor: Queue at floor2, elevator2, queue size: 2
+2021.12.09 08:51:42.423 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 199, Start floor: 2, Destination floor: 24, ElevatorA2
+2021.12.09 08:51:42.452 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator0
+2021.12.09 08:51:42.467 [INFO] com.dreamteam.model2.Floor: Queue at floor14, elevator4, queue size: 2
+2021.12.09 08:51:42.467 [INFO] com.dreamteam.model2.Elevator: User Passenger144 entered Elevator0, active users: 2
+2021.12.09 08:51:42.468 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 200, Start floor: 14, Destination floor: 20, ElevatorA4
+2021.12.09 08:51:42.468 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA0 goes to floor 18, direction: DOWN
+2021.12.09 08:51:42.529 [INFO] com.dreamteam.model2.Floor: Queue at floor24, elevator3, queue size: 1
+2021.12.09 08:51:42.530 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 201, Start floor: 24, Destination floor: 25, ElevatorA3
+2021.12.09 08:51:42.571 [INFO] com.dreamteam.model2.Floor: Queue at floor26, elevator1, queue size: 1
+2021.12.09 08:51:42.571 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 202, Start floor: 26, Destination floor: 9, ElevatorA1
+2021.12.09 08:51:42.649 [INFO] com.dreamteam.model2.Floor: Queue at floor12, elevator0, queue size: 1
+2021.12.09 08:51:42.649 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 203, Start floor: 12, Destination floor: 27, ElevatorA0
+2021.12.09 08:51:42.653 [INFO] com.dreamteam.model2.Elevator: Elevator0, current floor: 18
+2021.12.09 08:51:42.654 [INFO] com.dreamteam.model2.Elevator: User Passenger203 added to Elevator0 waiting list, size: 24
+2021.12.09 08:51:42.669 [INFO] com.dreamteam.model2.Elevator: Elevator3, current floor: 24
+2021.12.09 08:51:42.669 [INFO] com.dreamteam.model2.Elevator: User Passenger201 added to Elevator3 waiting list, size: 39
+2021.12.09 08:51:42.669 [INFO] com.dreamteam.model2.Elevator: User Passenger198 added to Elevator3 waiting list, size: 40
+2021.12.09 08:51:42.669 [INFO] com.dreamteam.model2.Elevator: User Passenger196 added to Elevator3 waiting list, size: 41
+2021.12.09 08:51:42.669 [INFO] com.dreamteam.model2.Elevator: User Passenger195 added to Elevator3 waiting list, size: 42
+2021.12.09 08:51:42.669 [INFO] com.dreamteam.model2.Elevator: User Passenger192 added to Elevator3 waiting list, size: 43
+2021.12.09 08:51:42.686 [INFO] com.dreamteam.model2.Floor: Queue at floor16, elevator3, queue size: 2
+2021.12.09 08:51:42.688 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 204, Start floor: 16, Destination floor: 21, ElevatorA3
+2021.12.09 08:51:42.688 [INFO] com.dreamteam.model2.Elevator: User Passenger204 added to Elevator3 waiting list, size: 44
+2021.12.09 08:51:42.701 [INFO] com.dreamteam.model2.Elevator: Elevator4, current floor: 9
+2021.12.09 08:51:42.701 [INFO] com.dreamteam.model2.Elevator: User Passenger200 added to Elevator4 waiting list, size: 34
+2021.12.09 08:51:42.746 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator0
+2021.12.09 08:51:42.761 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator3
+2021.12.09 08:51:42.761 [INFO] com.dreamteam.model2.Elevator: User Passenger153 entered Elevator0, active users: 2
+2021.12.09 08:51:42.761 [INFO] com.dreamteam.model2.Floor: Queue at floor10, elevator4, queue size: 2
+2021.12.09 08:51:42.761 [INFO] com.dreamteam.model2.Elevator: User Passenger201 entered Elevator3, active users: 1
+2021.12.09 08:51:42.761 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 205, Start floor: 10, Destination floor: 2, ElevatorA4
+2021.12.09 08:51:42.761 [INFO] com.dreamteam.model2.Elevator: User Passenger205 added to Elevator4 waiting list, size: 35
+2021.12.09 08:51:42.761 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA3 goes to floor 25, direction: UP
+2021.12.09 08:51:42.761 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA0 goes to floor 13, direction: DOWN
+2021.12.09 08:51:42.791 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator4
+2021.12.09 08:51:42.791 [INFO] com.dreamteam.model2.Elevator: User Passenger72 entered Elevator4, active users: 2
+2021.12.09 08:51:42.792 [INFO] com.dreamteam.model2.Elevator: User Passenger172 entered Elevator4, active users: 3
+2021.12.09 08:51:42.793 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA4 goes to floor 18, direction: UP
+2021.12.09 08:51:42.811 [INFO] com.dreamteam.model2.Floor: Queue at floor28, elevator2, queue size: 1
+2021.12.09 08:51:42.812 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 206, Start floor: 28, Destination floor: 2, ElevatorA2
+2021.12.09 08:51:42.822 [INFO] com.dreamteam.model2.Elevator: Elevator3, current floor: 25
+2021.12.09 08:51:42.876 [INFO] com.dreamteam.model2.Floor: Queue at floor4, elevator4, queue size: 1
+2021.12.09 08:51:42.877 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 207, Start floor: 4, Destination floor: 12, ElevatorA4
+2021.12.09 08:51:42.917 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator3
+2021.12.09 08:51:42.918 [INFO] com.dreamteam.model2.Elevator: User Passenger10 entered Elevator3, active users: 1
+2021.12.09 08:51:42.918 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA3 goes to floor 1, direction: DOWN
+2021.12.09 08:51:42.937 [INFO] com.dreamteam.model2.Floor: Queue at floor14, elevator1, queue size: 2
+2021.12.09 08:51:42.937 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 208, Start floor: 14, Destination floor: 10, ElevatorA1
+2021.12.09 08:51:42.984 [INFO] com.dreamteam.model2.Floor: Queue at floor20, elevator1, queue size: 1
+2021.12.09 08:51:42.985 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 209, Start floor: 20, Destination floor: 29, ElevatorA1
+2021.12.09 08:51:43.053 [INFO] com.dreamteam.model2.Floor: Queue at floor6, elevator4, queue size: 2
+2021.12.09 08:51:43.053 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 210, Start floor: 6, Destination floor: 22, ElevatorA4
+2021.12.09 08:51:43.074 [INFO] com.dreamteam.model2.Elevator: Elevator0, current floor: 13
+2021.12.09 08:51:43.106 [INFO] com.dreamteam.model2.Floor: Queue at floor7, elevator1, queue size: 2
+2021.12.09 08:51:43.108 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 211, Start floor: 7, Destination floor: 15, ElevatorA1
+2021.12.09 08:51:43.166 [INFO] com.dreamteam.model2.Elevator: Elevator1, current floor: 3
+2021.12.09 08:51:43.166 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator0
+2021.12.09 08:51:43.181 [INFO] com.dreamteam.model2.Elevator: User Passenger211 added to Elevator1 waiting list, size: 29
+2021.12.09 08:51:43.181 [INFO] com.dreamteam.model2.Floor: Queue at floor13, elevator4, queue size: 1
+2021.12.09 08:51:43.182 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 212, Start floor: 13, Destination floor: 11, ElevatorA4
+2021.12.09 08:51:43.182 [INFO] com.dreamteam.model2.Elevator: User Passenger209 added to Elevator1 waiting list, size: 30
+2021.12.09 08:51:43.182 [INFO] com.dreamteam.model2.Elevator: User Passenger208 added to Elevator1 waiting list, size: 31
+2021.12.09 08:51:43.182 [INFO] com.dreamteam.model2.Elevator: User Passenger202 added to Elevator1 waiting list, size: 32
+2021.12.09 08:51:43.183 [INFO] com.dreamteam.model2.Elevator: User Passenger119 entered Elevator0, active users: 2
+2021.12.09 08:51:43.183 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA0 goes to floor 12, direction: DOWN
+2021.12.09 08:51:43.230 [INFO] com.dreamteam.model2.Floor: Queue at floor26, elevator2, queue size: 1
+2021.12.09 08:51:43.231 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 213, Start floor: 26, Destination floor: 18, ElevatorA2
+2021.12.09 08:51:43.244 [INFO] com.dreamteam.model2.Elevator: Elevator0, current floor: 12
+2021.12.09 08:51:43.259 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator1
+2021.12.09 08:51:43.259 [INFO] com.dreamteam.model2.Elevator: User Passenger150 entered Elevator1, active users: 1
+2021.12.09 08:51:43.260 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA1 goes to floor 13, direction: UP
+2021.12.09 08:51:43.303 [INFO] com.dreamteam.model2.Floor: Queue at floor28, elevator3, queue size: 2
+2021.12.09 08:51:43.304 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 214, Start floor: 28, Destination floor: 5, ElevatorA3
+2021.12.09 08:51:43.335 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator0
+2021.12.09 08:51:43.336 [INFO] com.dreamteam.model2.Elevator: User Passenger203 entered Elevator0, active users: 2
+2021.12.09 08:51:43.337 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA0 goes to floor 16, direction: UP
+2021.12.09 08:51:43.351 [INFO] com.dreamteam.model2.Elevator: Elevator4, current floor: 18
+2021.12.09 08:51:43.352 [INFO] com.dreamteam.model2.Elevator: User Passenger212 added to Elevator4 waiting list, size: 34
+2021.12.09 08:51:43.352 [INFO] com.dreamteam.model2.Elevator: User Passenger210 added to Elevator4 waiting list, size: 35
+2021.12.09 08:51:43.352 [INFO] com.dreamteam.model2.Elevator: User Passenger207 added to Elevator4 waiting list, size: 36
+2021.12.09 08:51:43.354 [INFO] com.dreamteam.model2.Floor: Queue at floor24, elevator3, queue size: 1
+2021.12.09 08:51:43.354 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 215, Start floor: 24, Destination floor: 3, ElevatorA3
+2021.12.09 08:51:43.421 [INFO] com.dreamteam.model2.Floor: Queue at floor9, elevator3, queue size: 1
+2021.12.09 08:51:43.421 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 216, Start floor: 9, Destination floor: 4, ElevatorA3
+2021.12.09 08:51:43.445 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator4
+2021.12.09 08:51:43.445 [INFO] com.dreamteam.model2.Elevator: User Passenger71 entered Elevator4, active users: 3
+2021.12.09 08:51:43.446 [INFO] com.dreamteam.model2.Elevator: User Passenger190 entered Elevator4, active users: 4
+2021.12.09 08:51:43.447 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA4 goes to floor 19, direction: UP
+2021.12.09 08:51:43.460 [INFO] com.dreamteam.model2.Elevator: Elevator2, current floor: 1
+2021.12.09 08:51:43.461 [INFO] com.dreamteam.model2.Elevator: User Passenger213 added to Elevator2 waiting list, size: 20
+2021.12.09 08:51:43.462 [INFO] com.dreamteam.model2.Elevator: User Passenger206 added to Elevator2 waiting list, size: 21
+2021.12.09 08:51:43.462 [INFO] com.dreamteam.model2.Elevator: User Passenger199 added to Elevator2 waiting list, size: 22
+2021.12.09 08:51:43.462 [INFO] com.dreamteam.model2.Elevator: User Passenger197 added to Elevator2 waiting list, size: 23
+2021.12.09 08:51:43.488 [INFO] com.dreamteam.model2.Floor: Queue at floor8, elevator4, queue size: 2
+2021.12.09 08:51:43.488 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 217, Start floor: 8, Destination floor: 18, ElevatorA4
+2021.12.09 08:51:43.507 [INFO] com.dreamteam.model2.Elevator: Elevator4, current floor: 19
+2021.12.09 08:51:43.507 [INFO] com.dreamteam.model2.Elevator: User Passenger217 added to Elevator4 waiting list, size: 35
+2021.12.09 08:51:43.554 [INFO] com.dreamteam.model2.Elevator: No users left Elevator2
+2021.12.09 08:51:43.554 [INFO] com.dreamteam.model2.Elevator: User Passenger86 entered Elevator2, active users: 1
+2021.12.09 08:51:43.554 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA2 goes to floor 27, direction: UP
+2021.12.09 08:51:43.587 [INFO] com.dreamteam.model2.Elevator: Elevator0, current floor: 16
+2021.12.09 08:51:43.601 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator4
+2021.12.09 08:51:43.601 [INFO] com.dreamteam.model2.Elevator: User Passenger178 entered Elevator4, active users: 4
+2021.12.09 08:51:43.601 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA4 goes to floor 21, direction: UP
+2021.12.09 08:51:43.652 [INFO] com.dreamteam.model2.Floor: Queue at floor27, elevator0, queue size: 1
+2021.12.09 08:51:43.653 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 218, Start floor: 27, Destination floor: 1, ElevatorA0
+2021.12.09 08:51:43.653 [INFO] com.dreamteam.model2.Elevator: User Passenger218 added to Elevator0 waiting list, size: 22
+2021.12.09 08:51:43.674 [INFO] com.dreamteam.model2.Floor: Queue at floor8, elevator1, queue size: 2
+2021.12.09 08:51:43.675 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 219, Start floor: 8, Destination floor: 29, ElevatorA1
+2021.12.09 08:51:43.677 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator0
+2021.12.09 08:51:43.677 [INFO] com.dreamteam.model2.Elevator: User Passenger141 entered Elevator0, active users: 2
+2021.12.09 08:51:43.677 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA0 goes to floor 27, direction: UP
+2021.12.09 08:51:43.717 [INFO] com.dreamteam.model2.Floor: Queue at floor27, elevator2, queue size: 1
+2021.12.09 08:51:43.719 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 220, Start floor: 27, Destination floor: 0, ElevatorA2
+2021.12.09 08:51:43.720 [INFO] com.dreamteam.model2.Floor: Queue at floor8, elevator0, queue size: 2
+2021.12.09 08:51:43.720 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 221, Start floor: 8, Destination floor: 17, ElevatorA0
+2021.12.09 08:51:43.725 [INFO] com.dreamteam.model2.Elevator: Elevator4, current floor: 21
+2021.12.09 08:51:43.783 [INFO] com.dreamteam.model2.Floor: Queue at floor14, elevator0, queue size: 2
+2021.12.09 08:51:43.783 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 222, Start floor: 14, Destination floor: 19, ElevatorA0
+2021.12.09 08:51:43.817 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator4
+2021.12.09 08:51:43.817 [INFO] com.dreamteam.model2.Elevator: User Passenger49 entered Elevator4, active users: 4
+2021.12.09 08:51:43.817 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA4 goes to floor 26, direction: UP
+2021.12.09 08:51:43.837 [INFO] com.dreamteam.model2.Floor: Queue at floor10, elevator1, queue size: 2
+2021.12.09 08:51:43.837 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 223, Start floor: 10, Destination floor: 20, ElevatorA1
+2021.12.09 08:51:43.879 [INFO] com.dreamteam.model2.Elevator: Elevator1, current floor: 13
+2021.12.09 08:51:43.879 [INFO] com.dreamteam.model2.Elevator: User Passenger223 added to Elevator1 waiting list, size: 32
+2021.12.09 08:51:43.879 [INFO] com.dreamteam.model2.Elevator: User Passenger219 added to Elevator1 waiting list, size: 33
+2021.12.09 08:51:43.886 [INFO] com.dreamteam.model2.Floor: Queue at floor1, elevator2, queue size: 1
+2021.12.09 08:51:43.886 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 224, Start floor: 1, Destination floor: 28, ElevatorA2
+2021.12.09 08:51:43.956 [INFO] com.dreamteam.model2.Floor: Queue at floor7, elevator0, queue size: 2
+2021.12.09 08:51:43.956 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 225, Start floor: 7, Destination floor: 6, ElevatorA0
+2021.12.09 08:51:43.973 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator1
+2021.12.09 08:51:43.973 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA1 goes to floor 29, direction: UP
+2021.12.09 08:51:44.019 [INFO] com.dreamteam.model2.Floor: Queue at floor16, elevator0, queue size: 1
+2021.12.09 08:51:44.019 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 226, Start floor: 16, Destination floor: 15, ElevatorA0
+2021.12.09 08:51:44.077 [INFO] com.dreamteam.model2.Floor: Queue at floor21, elevator4, queue size: 1
+2021.12.09 08:51:44.078 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 227, Start floor: 21, Destination floor: 14, ElevatorA4
+2021.12.09 08:51:44.131 [INFO] com.dreamteam.model2.Elevator: Elevator4, current floor: 26
+2021.12.09 08:51:44.131 [INFO] com.dreamteam.model2.Elevator: User Passenger227 added to Elevator4 waiting list, size: 34
+2021.12.09 08:51:44.132 [INFO] com.dreamteam.model2.Floor: Queue at floor9, elevator4, queue size: 1
+2021.12.09 08:51:44.134 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 228, Start floor: 9, Destination floor: 17, ElevatorA4
+2021.12.09 08:51:44.134 [INFO] com.dreamteam.model2.Elevator: User Passenger228 added to Elevator4 waiting list, size: 35
+2021.12.09 08:51:44.197 [INFO] com.dreamteam.model2.Floor: Queue at floor26, elevator3, queue size: 2
+2021.12.09 08:51:44.198 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 229, Start floor: 26, Destination floor: 0, ElevatorA3
+2021.12.09 08:51:44.224 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator4
+2021.12.09 08:51:44.224 [INFO] com.dreamteam.model2.Elevator: User Passenger186 entered Elevator4, active users: 4
+2021.12.09 08:51:44.224 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA4 goes to floor 10, direction: DOWN
+2021.12.09 08:51:44.253 [INFO] com.dreamteam.model2.Floor: Queue at floor1, elevator1, queue size: 2
+2021.12.09 08:51:44.253 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 230, Start floor: 1, Destination floor: 2, ElevatorA1
+2021.12.09 08:51:44.302 [INFO] com.dreamteam.model2.Floor: Queue at floor18, elevator4, queue size: 1
+2021.12.09 08:51:44.303 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 231, Start floor: 18, Destination floor: 16, ElevatorA4
+2021.12.09 08:51:44.361 [INFO] com.dreamteam.model2.Elevator: Elevator0, current floor: 27
+2021.12.09 08:51:44.361 [INFO] com.dreamteam.model2.Elevator: User Passenger226 added to Elevator0 waiting list, size: 22
+2021.12.09 08:51:44.362 [INFO] com.dreamteam.model2.Elevator: User Passenger225 added to Elevator0 waiting list, size: 23
+2021.12.09 08:51:44.362 [INFO] com.dreamteam.model2.Elevator: User Passenger222 added to Elevator0 waiting list, size: 24
+2021.12.09 08:51:44.362 [INFO] com.dreamteam.model2.Elevator: User Passenger221 added to Elevator0 waiting list, size: 25
+2021.12.09 08:51:44.366 [INFO] com.dreamteam.model2.Floor: Queue at floor15, elevator4, queue size: 2
+2021.12.09 08:51:44.366 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 232, Start floor: 15, Destination floor: 11, ElevatorA4
+2021.12.09 08:51:44.407 [INFO] com.dreamteam.model2.Elevator: Elevator3, current floor: 1
+2021.12.09 08:51:44.407 [INFO] com.dreamteam.model2.Elevator: User Passenger229 added to Elevator3 waiting list, size: 43
+2021.12.09 08:51:44.407 [INFO] com.dreamteam.model2.Elevator: User Passenger216 added to Elevator3 waiting list, size: 44
+2021.12.09 08:51:44.408 [INFO] com.dreamteam.model2.Elevator: User Passenger215 added to Elevator3 waiting list, size: 45
+2021.12.09 08:51:44.408 [INFO] com.dreamteam.model2.Elevator: User Passenger214 added to Elevator3 waiting list, size: 46
+2021.12.09 08:51:44.431 [INFO] com.dreamteam.model2.Floor: Queue at floor22, elevator4, queue size: 2
+2021.12.09 08:51:44.432 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 233, Start floor: 22, Destination floor: 29, ElevatorA4
+2021.12.09 08:51:44.454 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator0
+2021.12.09 08:51:44.454 [INFO] com.dreamteam.model2.Elevator: User Passenger218 entered Elevator0, active users: 2
+2021.12.09 08:51:44.454 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA0 goes to floor 6, direction: DOWN
+2021.12.09 08:51:44.501 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator3
+2021.12.09 08:51:44.501 [INFO] com.dreamteam.model2.Elevator: User Passenger52 entered Elevator3, active users: 1
+2021.12.09 08:51:44.501 [INFO] com.dreamteam.model2.Elevator: User Passenger110 entered Elevator3, active users: 2
+2021.12.09 08:51:44.502 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA3 goes to floor 11, direction: UP
+2021.12.09 08:51:44.514 [INFO] com.dreamteam.model2.Floor: Queue at floor5, elevator3, queue size: 2
+2021.12.09 08:51:44.514 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 234, Start floor: 5, Destination floor: 19, ElevatorA3
+2021.12.09 08:51:44.550 [INFO] com.dreamteam.model2.Floor: Queue at floor13, elevator1, queue size: 1
+2021.12.09 08:51:44.550 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 235, Start floor: 13, Destination floor: 0, ElevatorA1
+2021.12.09 08:51:44.619 [INFO] com.dreamteam.model2.Floor: Queue at floor2, elevator3, queue size: 3
+2021.12.09 08:51:44.620 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 236, Start floor: 2, Destination floor: 26, ElevatorA3
+2021.12.09 08:51:44.683 [INFO] com.dreamteam.model2.Floor: Queue at floor11, elevator1, queue size: 1
+2021.12.09 08:51:44.683 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 237, Start floor: 11, Destination floor: 12, ElevatorA1
+2021.12.09 08:51:44.744 [INFO] com.dreamteam.model2.Floor: Queue at floor27, elevator0, queue size: 1
+2021.12.09 08:51:44.745 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 238, Start floor: 27, Destination floor: 1, ElevatorA0
+2021.12.09 08:51:44.798 [INFO] com.dreamteam.model2.Floor: Queue at floor14, elevator2, queue size: 2
+2021.12.09 08:51:44.799 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 239, Start floor: 14, Destination floor: 15, ElevatorA2
+2021.12.09 08:51:44.852 [INFO] com.dreamteam.model2.Floor: Queue at floor17, elevator3, queue size: 2
+2021.12.09 08:51:44.853 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 240, Start floor: 17, Destination floor: 3, ElevatorA3
+2021.12.09 08:51:44.911 [INFO] com.dreamteam.model2.Floor: Queue at floor8, elevator2, queue size: 2
+2021.12.09 08:51:44.912 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 241, Start floor: 8, Destination floor: 18, ElevatorA2
+2021.12.09 08:51:44.964 [INFO] com.dreamteam.model2.Elevator: Elevator1, current floor: 29
+2021.12.09 08:51:44.964 [INFO] com.dreamteam.model2.Elevator: User Passenger237 added to Elevator1 waiting list, size: 33
+2021.12.09 08:51:44.964 [INFO] com.dreamteam.model2.Elevator: User Passenger235 added to Elevator1 waiting list, size: 34
+2021.12.09 08:51:44.964 [INFO] com.dreamteam.model2.Elevator: User Passenger230 added to Elevator1 waiting list, size: 35
+2021.12.09 08:51:44.966 [INFO] com.dreamteam.model2.Floor: Queue at floor0, elevator0, queue size: 1
+2021.12.09 08:51:44.967 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 242, Start floor: 0, Destination floor: 12, ElevatorA0
+2021.12.09 08:51:45.028 [INFO] com.dreamteam.model2.Floor: Queue at floor18, elevator0, queue size: 1
+2021.12.09 08:51:45.029 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 243, Start floor: 18, Destination floor: 15, ElevatorA0
+2021.12.09 08:51:45.057 [INFO] com.dreamteam.model2.Elevator: No users left Elevator1
+2021.12.09 08:51:45.057 [INFO] com.dreamteam.model2.Elevator: User Passenger31 entered Elevator1, active users: 1
+2021.12.09 08:51:45.058 [INFO] com.dreamteam.model2.Elevator: User Passenger167 entered Elevator1, active users: 2
+2021.12.09 08:51:45.058 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA1 goes to floor 14, direction: DOWN
+2021.12.09 08:51:45.118 [INFO] com.dreamteam.model2.Elevator: Elevator3, current floor: 11
+2021.12.09 08:51:45.119 [INFO] com.dreamteam.model2.Elevator: User Passenger240 added to Elevator3 waiting list, size: 45
+2021.12.09 08:51:45.119 [INFO] com.dreamteam.model2.Elevator: User Passenger236 added to Elevator3 waiting list, size: 46
+2021.12.09 08:51:45.120 [INFO] com.dreamteam.model2.Elevator: User Passenger234 added to Elevator3 waiting list, size: 47
+2021.12.09 08:51:45.132 [INFO] com.dreamteam.model2.Floor: Queue at floor21, elevator1, queue size: 1
+2021.12.09 08:51:45.132 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 244, Start floor: 21, Destination floor: 14, ElevatorA1
+2021.12.09 08:51:45.156 [INFO] com.dreamteam.model2.Floor: Queue at floor16, elevator4, queue size: 2
+2021.12.09 08:51:45.157 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 245, Start floor: 16, Destination floor: 13, ElevatorA4
+2021.12.09 08:51:45.164 [INFO] com.dreamteam.model2.Elevator: Elevator2, current floor: 27
+2021.12.09 08:51:45.164 [INFO] com.dreamteam.model2.Elevator: User Passenger241 added to Elevator2 waiting list, size: 24
+2021.12.09 08:51:45.164 [INFO] com.dreamteam.model2.Elevator: User Passenger239 added to Elevator2 waiting list, size: 25
+2021.12.09 08:51:45.165 [INFO] com.dreamteam.model2.Elevator: User Passenger224 added to Elevator2 waiting list, size: 26
+2021.12.09 08:51:45.165 [INFO] com.dreamteam.model2.Elevator: User Passenger220 added to Elevator2 waiting list, size: 27
+2021.12.09 08:51:45.212 [INFO] com.dreamteam.model2.Elevator: Elevator4, current floor: 10
+2021.12.09 08:51:45.212 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator3
+2021.12.09 08:51:45.212 [INFO] com.dreamteam.model2.Elevator: User Passenger245 added to Elevator4 waiting list, size: 35
+2021.12.09 08:51:45.213 [INFO] com.dreamteam.model2.Elevator: User Passenger195 entered Elevator3, active users: 2
+2021.12.09 08:51:45.213 [INFO] com.dreamteam.model2.Elevator: User Passenger233 added to Elevator4 waiting list, size: 36
+2021.12.09 08:51:45.213 [INFO] com.dreamteam.model2.Elevator: User Passenger232 added to Elevator4 waiting list, size: 37
+2021.12.09 08:51:45.213 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA3 goes to floor 26, direction: UP
+2021.12.09 08:51:45.213 [INFO] com.dreamteam.model2.Elevator: User Passenger231 added to Elevator4 waiting list, size: 38
+2021.12.09 08:51:45.219 [INFO] com.dreamteam.model2.Floor: Queue at floor1, elevator3, queue size: 1
+2021.12.09 08:51:45.222 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 246, Start floor: 1, Destination floor: 11, ElevatorA3
+2021.12.09 08:51:45.260 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator2
+2021.12.09 08:51:45.260 [INFO] com.dreamteam.model2.Elevator: User Passenger220 entered Elevator2, active users: 1
+2021.12.09 08:51:45.271 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA2 goes to floor 0, direction: DOWN
+2021.12.09 08:51:45.281 [INFO] com.dreamteam.model2.Floor: Queue at floor17, elevator4, queue size: 2
+2021.12.09 08:51:45.282 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 247, Start floor: 17, Destination floor: 15, ElevatorA4
+2021.12.09 08:51:45.282 [INFO] com.dreamteam.model2.Elevator: User Passenger247 added to Elevator4 waiting list, size: 39
+2021.12.09 08:51:45.305 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator4
+2021.12.09 08:51:45.305 [INFO] com.dreamteam.model2.Elevator: User Passenger76 entered Elevator4, active users: 4
+2021.12.09 08:51:45.305 [INFO] com.dreamteam.model2.Elevator: User Passenger205 entered Elevator4, active users: 5
+2021.12.09 08:51:45.305 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA4 goes to floor 2, direction: DOWN
+2021.12.09 08:51:45.358 [INFO] com.dreamteam.model2.Floor: Queue at floor9, elevator3, queue size: 2
+2021.12.09 08:51:45.358 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 248, Start floor: 9, Destination floor: 13, ElevatorA3
+2021.12.09 08:51:45.421 [INFO] com.dreamteam.model2.Floor: Queue at floor0, elevator2, queue size: 1
+2021.12.09 08:51:45.423 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 249, Start floor: 0, Destination floor: 5, ElevatorA2
+2021.12.09 08:51:45.449 [INFO] com.dreamteam.model2.Floor: Queue at floor14, elevator3, queue size: 3
+2021.12.09 08:51:45.449 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 250, Start floor: 14, Destination floor: 4, ElevatorA3
+2021.12.09 08:51:45.510 [INFO] com.dreamteam.model2.Floor: Queue at floor10, elevator4, queue size: 1
+2021.12.09 08:51:45.511 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 251, Start floor: 10, Destination floor: 12, ElevatorA4
+2021.12.09 08:51:45.577 [INFO] com.dreamteam.model2.Floor: Queue at floor19, elevator4, queue size: 1
+2021.12.09 08:51:45.578 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 252, Start floor: 19, Destination floor: 4, ElevatorA4
+2021.12.09 08:51:45.637 [INFO] com.dreamteam.model2.Floor: Queue at floor23, elevator3, queue size: 1
+2021.12.09 08:51:45.637 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 253, Start floor: 23, Destination floor: 19, ElevatorA3
+2021.12.09 08:51:45.686 [INFO] com.dreamteam.model2.Floor: Queue at floor27, elevator2, queue size: 1
+2021.12.09 08:51:45.686 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 254, Start floor: 27, Destination floor: 21, ElevatorA2
+2021.12.09 08:51:45.747 [INFO] com.dreamteam.model2.Floor: Queue at floor16, elevator1, queue size: 2
+2021.12.09 08:51:45.747 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 255, Start floor: 16, Destination floor: 26, ElevatorA1
+2021.12.09 08:51:45.758 [INFO] com.dreamteam.model2.Elevator: Elevator0, current floor: 6
+2021.12.09 08:51:45.759 [INFO] com.dreamteam.model2.Elevator: User Passenger243 added to Elevator0 waiting list, size: 25
+2021.12.09 08:51:45.759 [INFO] com.dreamteam.model2.Elevator: User Passenger242 added to Elevator0 waiting list, size: 26
+2021.12.09 08:51:45.759 [INFO] com.dreamteam.model2.Elevator: User Passenger238 added to Elevator0 waiting list, size: 27
+2021.12.09 08:51:45.806 [INFO] com.dreamteam.model2.Elevator: Elevator4, current floor: 2
+2021.12.09 08:51:45.806 [INFO] com.dreamteam.model2.Elevator: User Passenger252 added to Elevator4 waiting list, size: 38
+2021.12.09 08:51:45.806 [INFO] com.dreamteam.model2.Elevator: User Passenger251 added to Elevator4 waiting list, size: 39
+2021.12.09 08:51:45.810 [INFO] com.dreamteam.model2.Floor: Queue at floor22, elevator1, queue size: 2
+2021.12.09 08:51:45.810 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 256, Start floor: 22, Destination floor: 19, ElevatorA1
+2021.12.09 08:51:45.853 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator0
+2021.12.09 08:51:45.853 [INFO] com.dreamteam.model2.Elevator: User Passenger93 entered Elevator0, active users: 2
+2021.12.09 08:51:45.853 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA0 goes to floor 1, direction: DOWN
+2021.12.09 08:51:45.880 [INFO] com.dreamteam.model2.Floor: Queue at floor3, elevator4, queue size: 1
+2021.12.09 08:51:45.883 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 257, Start floor: 3, Destination floor: 8, ElevatorA4
+2021.12.09 08:51:45.883 [INFO] com.dreamteam.model2.Elevator: User Passenger257 added to Elevator4 waiting list, size: 40
+2021.12.09 08:51:45.898 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator4
+2021.12.09 08:51:45.898 [INFO] com.dreamteam.model2.Elevator: User Passenger32 entered Elevator4, active users: 4
+2021.12.09 08:51:45.899 [INFO] com.dreamteam.model2.Elevator: User Passenger126 entered Elevator4, active users: 5
+2021.12.09 08:51:45.899 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA4 goes to floor 1, direction: DOWN
+2021.12.09 08:51:45.931 [INFO] com.dreamteam.model2.Floor: Queue at floor11, elevator3, queue size: 1
+2021.12.09 08:51:45.931 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 258, Start floor: 11, Destination floor: 18, ElevatorA3
+2021.12.09 08:51:45.960 [INFO] com.dreamteam.model2.Elevator: Elevator4, current floor: 1
+2021.12.09 08:51:45.991 [INFO] com.dreamteam.model2.Elevator: Elevator1, current floor: 14
+2021.12.09 08:51:45.992 [INFO] com.dreamteam.model2.Elevator: User Passenger256 added to Elevator1 waiting list, size: 35
+2021.12.09 08:51:45.992 [INFO] com.dreamteam.model2.Elevator: User Passenger255 added to Elevator1 waiting list, size: 36
+2021.12.09 08:51:45.992 [INFO] com.dreamteam.model2.Elevator: User Passenger244 added to Elevator1 waiting list, size: 37
+2021.12.09 08:51:45.995 [INFO] com.dreamteam.model2.Floor: Queue at floor20, elevator0, queue size: 1
+2021.12.09 08:51:45.995 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 259, Start floor: 20, Destination floor: 19, ElevatorA0
+2021.12.09 08:51:46.052 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator4
+2021.12.09 08:51:46.052 [INFO] com.dreamteam.model2.Elevator: User Passenger61 entered Elevator4, active users: 4
+2021.12.09 08:51:46.070 [INFO] com.dreamteam.model2.Floor: Queue at floor28, elevator4, queue size: 2
+2021.12.09 08:51:46.070 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 260, Start floor: 28, Destination floor: 19, ElevatorA4
+2021.12.09 08:51:46.070 [INFO] com.dreamteam.model2.Elevator: User Passenger111 entered Elevator4, active users: 5
+2021.12.09 08:51:46.071 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA4 goes to floor 3, direction: UP
+2021.12.09 08:51:46.083 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator1
+2021.12.09 08:51:46.083 [INFO] com.dreamteam.model2.Elevator: User Passenger53 entered Elevator1, active users: 2
+2021.12.09 08:51:46.083 [INFO] com.dreamteam.model2.Elevator: User Passenger208 entered Elevator1, active users: 3
+2021.12.09 08:51:46.083 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA1 goes to floor 10, direction: DOWN
+2021.12.09 08:51:46.119 [INFO] com.dreamteam.model2.Floor: Queue at floor19, elevator3, queue size: 2
+2021.12.09 08:51:46.119 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 261, Start floor: 19, Destination floor: 21, ElevatorA3
+2021.12.09 08:51:46.146 [INFO] com.dreamteam.model2.Elevator: Elevator3, current floor: 26
+2021.12.09 08:51:46.146 [INFO] com.dreamteam.model2.Elevator: User Passenger261 added to Elevator3 waiting list, size: 47
+2021.12.09 08:51:46.146 [INFO] com.dreamteam.model2.Elevator: User Passenger258 added to Elevator3 waiting list, size: 48
+2021.12.09 08:51:46.146 [INFO] com.dreamteam.model2.Elevator: User Passenger253 added to Elevator3 waiting list, size: 49
+2021.12.09 08:51:46.146 [INFO] com.dreamteam.model2.Elevator: User Passenger250 added to Elevator3 waiting list, size: 50
+2021.12.09 08:51:46.146 [INFO] com.dreamteam.model2.Elevator: User Passenger248 added to Elevator3 waiting list, size: 51
+2021.12.09 08:51:46.147 [INFO] com.dreamteam.model2.Elevator: User Passenger246 added to Elevator3 waiting list, size: 52
+2021.12.09 08:51:46.161 [INFO] com.dreamteam.model2.Elevator: Elevator0, current floor: 1
+2021.12.09 08:51:46.161 [INFO] com.dreamteam.model2.Elevator: User Passenger259 added to Elevator0 waiting list, size: 27
+2021.12.09 08:51:46.162 [INFO] com.dreamteam.model2.Floor: Queue at floor19, elevator4, queue size: 2
+2021.12.09 08:51:46.162 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 262, Start floor: 19, Destination floor: 7, ElevatorA4
+2021.12.09 08:51:46.192 [INFO] com.dreamteam.model2.Elevator: Elevator4, current floor: 3
+2021.12.09 08:51:46.192 [INFO] com.dreamteam.model2.Elevator: User Passenger260 added to Elevator4 waiting list, size: 37
+2021.12.09 08:51:46.192 [INFO] com.dreamteam.model2.Elevator: User Passenger262 added to Elevator4 waiting list, size: 38
+2021.12.09 08:51:46.223 [INFO] com.dreamteam.model2.Floor: Queue at floor15, elevator1, queue size: 2
+2021.12.09 08:51:46.224 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 263, Start floor: 15, Destination floor: 2, ElevatorA1
+2021.12.09 08:51:46.238 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator3
+2021.12.09 08:51:46.238 [INFO] com.dreamteam.model2.Elevator: User Passenger11 entered Elevator3, active users: 2
+2021.12.09 08:51:46.238 [INFO] com.dreamteam.model2.Elevator: User Passenger229 entered Elevator3, active users: 3
+2021.12.09 08:51:46.238 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA3 goes to floor 28, direction: UP
+2021.12.09 08:51:46.253 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator0
+2021.12.09 08:51:46.255 [INFO] com.dreamteam.model2.Elevator: User Passenger135 entered Elevator0, active users: 2
+2021.12.09 08:51:46.255 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA0 goes to floor 18, direction: UP
+2021.12.09 08:51:46.283 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator4
+2021.12.09 08:51:46.283 [INFO] com.dreamteam.model2.Elevator: User Passenger257 entered Elevator4, active users: 5
+2021.12.09 08:51:46.283 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA4 goes to floor 8, direction: UP
+2021.12.09 08:51:46.286 [INFO] com.dreamteam.model2.Floor: Queue at floor9, elevator4, queue size: 2
+2021.12.09 08:51:46.286 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 264, Start floor: 9, Destination floor: 29, ElevatorA4
+2021.12.09 08:51:46.330 [INFO] com.dreamteam.model2.Elevator: Elevator1, current floor: 10
+2021.12.09 08:51:46.330 [INFO] com.dreamteam.model2.Elevator: User Passenger263 added to Elevator1 waiting list, size: 36
+2021.12.09 08:51:46.360 [INFO] com.dreamteam.model2.Elevator: Elevator3, current floor: 28
+2021.12.09 08:51:46.365 [INFO] com.dreamteam.model2.Floor: Queue at floor27, elevator4, queue size: 2
+2021.12.09 08:51:46.365 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 265, Start floor: 27, Destination floor: 17, ElevatorA4
+2021.12.09 08:51:46.418 [INFO] com.dreamteam.model2.Floor: Queue at floor9, elevator0, queue size: 2
+2021.12.09 08:51:46.419 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 266, Start floor: 9, Destination floor: 8, ElevatorA0
+2021.12.09 08:51:46.424 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator1
+2021.12.09 08:51:46.424 [INFO] com.dreamteam.model2.Elevator: User Passenger128 entered Elevator1, active users: 3
+2021.12.09 08:51:46.425 [INFO] com.dreamteam.model2.Elevator: User Passenger223 entered Elevator1, active users: 4
+2021.12.09 08:51:46.425 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA1 goes to floor 2, direction: DOWN
+2021.12.09 08:51:46.440 [INFO] com.dreamteam.model2.Elevator: User(s) left Elevator3
+2021.12.09 08:51:46.440 [INFO] com.dreamteam.model2.Elevator: User Passenger99 entered Elevator3, active users: 3
+2021.12.09 08:51:46.441 [INFO] com.dreamteam.model2.Elevator: User Passenger214 entered Elevator3, active users: 4
+2021.12.09 08:51:46.441 [INFO] com.dreamteam.model2.ElevatorA: ElevatorA3 goes to floor 29, direction: UP
+2021.12.09 08:51:46.485 [INFO] com.dreamteam.model2.Floor: Queue at floor3, elevator4, queue size: 1
+2021.12.09 08:51:46.486 [INFO] com.dreamteam.utils.UserFactory: New user: Passenger, ID: 267, Start floor: 3, Destination floor: 21, ElevatorA4
+2021.12.09 08:51:46.490 [INFO] com.dreamteam.model2.Elevator: User Passenger266 added to Elevator0 waiting list, size: 27
+2021.12.09 08:51:46.490 [INFO] com.dreamteam.model2.Elevator: User Passenger267 added to Elevator4 waiting list, size: 38
+2021.12.09 08:51:46.490 [INFO] com.dreamteam.model2.Elevator: User Passenger254 added to Elevator2 waiting list, size: 27
+2021.12.09 08:51:46.490 [INFO] com.dreamteam.model2.Elevator: User Passenger265 added to Elevator4 waiting list, size: 39
+2021.12.09 08:51:46.491 [INFO] com.dreamteam.model2.Elevator: User Passenger249 added to Elevator2 waiting list, size: 28
+2021.12.09 08:51:46.491 [INFO] com.dreamteam.model2.Elevator: User Passenger264 added to Elevator4 waiting list, size: 40
