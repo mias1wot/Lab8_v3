@@ -1,8 +1,11 @@
 package com.dreamteam.model;
 
+import com.dreamteam.view.ObservableProperties;
+import com.dreamteam.view.viewModels.LiftViewModel;
+
 import java.util.*;
 
-class Building
+public class Building
 {
     //fields
     private List<LiftManager> liftManagers;
@@ -24,6 +27,7 @@ class Building
     public int getCountFloor(){
         return this.countFloor;
     }
+
 
     //logic
     public void addLift(LiftManager liftManager) {
@@ -48,13 +52,16 @@ class Building
         liftManagers.get(liftNumber).setLiftStategy(strategy);
     }
 
-    public void getPassangersOnBoard(Lift lift) {
+    public void getPassengersOnBoard(Lift lift) {
         floorManagers.get(lift.getFloor()).getPassengersOnBoard(lift);
     }
 
     public void callLiftAt(int liftNumber, int floor){
+//        System.out.println(liftNumber);
+//        System.out.println(liftManagers.get(liftNumber).getLiftNumber());
         liftManagers.get(liftNumber).addFloorCall(floor);
     }
+
 
     public void pause(){
         for (var liftManager : liftManagers)

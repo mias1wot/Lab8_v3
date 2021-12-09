@@ -1,5 +1,9 @@
 package com.dreamteam.model;
 
+import com.dreamteam.view.ObservableProperties;
+
+import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangeSupport;
 import java.util.*;
 
 public class LiftManager implements Runnable {
@@ -10,12 +14,18 @@ public class LiftManager implements Runnable {
     List<Integer> floorsWithWaitingPassengersQueue;
     ThreadState state;
 
-    public LiftManager(Building building, Lift lift){
+    private PropertyChangeSupport support;//not needed
+
+    public LiftManager(Building building, Lift lift, PropertyChangeListener listener){
+        System.out.println("lift manager: " + lift.getNumber());
         this.building = building;
         this.lift = lift;
         logger = Logger.getInstance();
         floorsWithWaitingPassengersQueue = new ArrayList<Integer> (building.getCountFloor());
         state = ThreadState.Paused;
+
+        support = new PropertyChangeSupport(this);
+        support.addPropertyChangeListener(listener);
     } 
 
     //getters
@@ -25,6 +35,7 @@ public class LiftManager implements Runnable {
     public Lift getLift(){
         return lift;
     }
+    public List<Integer> getFloorsWithWaitingPassengersQueue(){ return floorsWithWaitingPassengersQueue; }
 
     //setters
     public void setSpeed(int speed){
@@ -36,22 +47,26 @@ public class LiftManager implements Runnable {
 
     //methods
     public void run(){
+        System.out.println("lift manager: " + lift.getNumber() + ", state: " + state);
         int initFloor;
         int initPassengers;
         int remainingPassengers;
         while(state != ThreadState.Terminated){
             if(state == ThreadState.Paused){
                 synchronized(building){
-                    while((state == ThreadState.Paused))
+                    while((state == ThreadState.Paused)) {
                         try {
-                            wait();
+                            building.wait();
                         }
-                        catch(Exception e){}
+                        catch (Exception e) {}
+                    }
                 }
             }
-                
+
 
             while (state == ThreadState.Working && (lift.getCurPassengersCount() != 0 || !floorsWithWaitingPassengersQueue.isEmpty())){
+                if(lift.getNumber() == 1)
+                    System.out.println("I'm working");
                 initPassengers = lift.getCurPassengersCount();
                 lift.freePassengers();
                 remainingPassengers = lift.getCurPassengersCount();
@@ -59,16 +74,18 @@ public class LiftManager implements Runnable {
                     logger.log(lift.getNumber(), lift.getFloor(), (initPassengers - remainingPassengers) + " passengers left the lift. " + remainingPassengers + " passengers remain in the lift.");
 
                 initPassengers = remainingPassengers;
+                if(lift.getNumber() == 1)
+                    System.out.println("Prepare to pick");
                 liftStrategy.pickPassengers();
                 remainingPassengers = lift.getCurPassengersCount();
                 if(initPassengers != remainingPassengers)
                     logger.log(lift.getNumber(), lift.getFloor(), (remainingPassengers - initPassengers) + " passengers entered the lift. " + remainingPassengers + " passengers remain in the lift.");
 
-                if (lift.getCurPassengersCount() != 0){
-                    initFloor = lift.getFloor();
-                    liftStrategy.checkAndSetFloorToMove();
+                initFloor = lift.getFloor();
+                liftStrategy.checkAndSetFloorToMove();
 
-                    logger.log(lift.getNumber(), initFloor, "Lift going to move to floor " + lift.getFloor() + ".");
+                if (lift.getFloor() != lift.getFloorToMove()){
+                    logger.log(lift.getNumber(), initFloor, "Lift going to move to floor " + lift.getFloorToMove() + ".");
 
                     lift.move();
 
@@ -77,9 +94,10 @@ public class LiftManager implements Runnable {
             }
             //if you want, you can leave sleep() here
         }
+        System.out.println(lift.getNumber() + " ended their work");
     }
 
-    public void addFloorCall(int floor){
+    public synchronized void addFloorCall(int floor){
         if(!floorsWithWaitingPassengersQueue.contains(floor)){
             floorsWithWaitingPassengersQueue.add(floor);
 

@@ -2,7 +2,9 @@ package com.dreamteam.model;
 
 import com.dreamteam.model.LiftStrategy;
 
+import java.beans.PropertyChangeListener;
 import java.util.*;
+import com.dreamteam.Observer;
 
 class BuildingManager
 {
@@ -16,12 +18,12 @@ class BuildingManager
         return this.building;
     }
 
-    public void buildFloors(int countFloors, List<Integer> passengerGenerationSpeedForEachFloor)
+    public void buildFloors(int countFloors, int countLift, List<Integer> passengerGenerationSpeedForEachFloor, PropertyChangeListener listener)
     {
         for(int i = 0; i < countFloors; ++i)
         {
             this.building.addFloor(
-                    new FloorManager(i, countFloors, passengerGenerationSpeedForEachFloor.get(i))//int floorNumber, int countOfQueues, int generationSpeed
+                    new FloorManager(this.building, i, countLift, passengerGenerationSpeedForEachFloor.get(i), listener)//int floorNumber, int countOfQueues, int generationSpeed
             );
         }
     }
@@ -31,20 +33,23 @@ class BuildingManager
                            List<Integer> strategiesNumbers,
                            List<Integer> speedForEachLift,
                            List<Double> weightCapacityForEachLift,
-                           List<Integer> passengersCapacityForEachLift)
+                           List<Integer> passengersCapacityForEachLift,
+                           Observer observer)
     {
+        ArrayList <Thread> threads = new ArrayList<>();
         LiftStrategy strategy = null;
         for(int i = 0; i < countLift; ++i)
         {
             Lift lift = new Lift(
-                    building,
+                    this.building,
                     i,
                     passengersCapacityForEachLift.get(i),
                     weightCapacityForEachLift.get(i),
-                    speedForEachLift.get(i)
+                    speedForEachLift.get(i),
+                    observer
             );
 
-            LiftManager liftManager = new LiftManager(this.building, lift);
+            LiftManager liftManager = new LiftManager(this.building, lift, observer);
 
             switch(strategiesNumbers.get(i)) {
                 case 0:
@@ -60,8 +65,11 @@ class BuildingManager
                 liftManager 
             );
 
-            new Thread(liftManager).start();//creates Thread
+            //new Thread(liftManager).start()
+            threads.add(new Thread(liftManager));//creates Thread
         }
+        for(Thread thread: threads)
+            thread.start();
 
     }
 }

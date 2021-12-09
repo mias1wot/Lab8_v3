@@ -1,5 +1,11 @@
 package com.dreamteam.model;
 
+import com.dreamteam.view.viewModels.*;
+
+import com.dreamteam.view.ObservableProperties;
+
+import java.beans.PropertyChangeListener;
+import java.beans.PropertyChangeSupport;
 import java.util.*;
 import java.util.stream.*;
 
@@ -9,13 +15,19 @@ public class FloorManager {
     private PassengerGenerator passengerGenerator;
     private List<Queue> queues;
 
-    public FloorManager(int floorNumber, int countOfQueues, int generationSpeed) {
+    private PropertyChangeSupport support;
+
+    public FloorManager(Building building, int floorNumber, int countOfQueues, int generationSpeed, PropertyChangeListener listener) {
+        this.building = building;
         floor = floorNumber;
         passengerGenerator = new PassengerGenerator(building, this, generationSpeed);
         new Thread(passengerGenerator).start();//creates thread
-        queues = new ArrayList<>();
+        queues = Collections.synchronizedList(new ArrayList<>());
         for (var i = 0; i < countOfQueues; i++)
-            queues.add(new Queue(i));
+            queues.add(new Queue(building, i, floor));
+
+        support = new PropertyChangeSupport(this);
+        support.addPropertyChangeListener(listener);
     }
 
     public int getFloor(){
@@ -30,13 +42,21 @@ public class FloorManager {
 
         queueToAdd.addToQueue(passenger);
 
+//        if(queueToAdd.getLiftIndex() == 1)
+//            System.out.println(queueToAdd.getLiftIndex());
+
         building.callLiftAt(queueToAdd.getLiftIndex(), floor);
+
+        QueueViewModel queueViewModel = new QueueViewModel(queueToAdd.getCount(), queueToAdd.getLiftIndex(), floor);
+        support.firePropertyChange(ObservableProperties.QUEUE_CHANGED.toString(), null, queueViewModel);
     }
 
     public void getPassengersOnBoard(Lift lift) {
-        queues
-                .get(lift.getNumber())
-                .getPassengersOnBoard(lift);
+        Queue curQueue = queues.get(lift.getNumber());
+        curQueue.getPassengersOnBoard(lift);
+
+        QueueViewModel queueViewModel = new QueueViewModel(curQueue.getCount(), curQueue.getLiftIndex(), floor);
+        support.firePropertyChange(ObservableProperties.QUEUE_CHANGED.toString(), null, queueViewModel);
     }
 
     public List<Integer> getCountOfPassengers() {

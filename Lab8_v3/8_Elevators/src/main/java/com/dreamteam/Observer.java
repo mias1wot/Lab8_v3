@@ -1,9 +1,8 @@
 package com.dreamteam;
 
-import com.dreamteam.model2.Main;
 import com.dreamteam.view.*;
-import com.dreamteam.view.viewModels.ElevatorViewModel;
-import com.dreamteam.view.viewModels.UserQueueViewModel;
+import com.dreamteam.view.viewModels.*;
+import com.dreamteam.model.*;
 
 import javax.swing.*;
 import javax.swing.border.Border;
@@ -27,21 +26,20 @@ public class Observer implements PropertyChangeListener {
     @Override
     public void propertyChange(PropertyChangeEvent evt) {
         if(evt.getPropertyName().equals(ObservableProperties.FLOOR_CHANGED.toString())) {
-            var elevator = (ElevatorViewModel)evt.getNewValue();
+            var liftManager = (LiftViewModel)evt.getNewValue();
+            int countFloor = User.getBuilding().getCountFloor();
 
-            ChangeCellColor(table.getColumnModel(), elevator.getNumber(), elevator.getCurrentFloor());
+            ChangeCellColor(table.getColumnModel(), liftManager.getLiftNumber(), liftManager.getFloor());
 
-            for(int i = 0; i < Main.floorAmount; i++) {
-                table.setValueAt("", i,elevator.getNumber() * 2);
-
-                if(i == Main.floorAmount - elevator.getCurrentFloor()) {
-                    table.setValueAt(elevator.getCurrentActiveUserAmount(), i - 1, elevator.getNumber() * 2);
-                }
+            for(int i = 0; i < countFloor; i++) {
+                table.setValueAt("", i,(liftManager.getLiftNumber() + 1) * 2);//2 4 6
             }
+            table.setValueAt(liftManager.getCurPassengersCount(), countFloor - liftManager.getFloor() - 1, (liftManager.getLiftNumber() + 1) * 2);//2 4 6
         }
 
         if(evt.getPropertyName().equals(ObservableProperties.QUEUE_CHANGED.toString())) {
-            var userQueue = (UserQueueViewModel)evt.getNewValue();
+            var queueViewModel = (QueueViewModel)evt.getNewValue();
+            int countFloor = User.getBuilding().getCountFloor();
             var unicodeEmojis = new String[] {
                     "\uD83D\uDC68", // man \ud83d\udc68
                     "\uD83D\uDC68", // woman
@@ -49,27 +47,29 @@ public class Observer implements PropertyChangeListener {
 
             StringBuilder cellText = new StringBuilder();
 
-            for(int i = 0; i < userQueue.getUsersInQueue(); i++) {
+            for(int i = 0; i < queueViewModel.getCount(); i++) {
                 var emoji = unicodeEmojis[random.nextInt(unicodeEmojis.length)];
                 cellText.append(emoji);
             }
 
             var QueueRenderer = new QueueCellRenderer();
             QueueRenderer.setHorizontalAlignment(JLabel.RIGHT);
-            table.getColumnModel().getColumn(userQueue.getElevatorNumber() * 2 - 1).setCellRenderer(QueueRenderer);
+            table.getColumnModel().getColumn(queueViewModel.getLiftIndex() * 2 + 1).setCellRenderer(QueueRenderer);//1 3 5
 
+            //System.out.println(queueViewModel.getLiftIndex());
             table.setValueAt(cellText.toString(),
-                    Main.floorAmount - userQueue.getCurrentFloor() - 1,
-                    userQueue.getElevatorNumber() * 2 - 1);
+                    countFloor - queueViewModel.getFloor() - 1,
+                    queueViewModel.getLiftIndex()  * 2 + 1);//1 3 5
         }
 
         table.repaint();
     }
 
-    public static void ChangeCellColor(TableColumnModel model, int elevatorIndex, int floorIndex)
+    public static void ChangeCellColor(TableColumnModel model, int liftNumber, int floorIndex)
     {
-        var ElevatorRenderer = new ElevatorRenderer(Main.floorAmount - floorIndex - 1);
+        int countFloor = User.getBuilding().getCountFloor();
+        var ElevatorRenderer = new ElevatorRenderer(countFloor - floorIndex - 1);
         ElevatorRenderer.setHorizontalAlignment(JLabel.CENTER);
-        model.getColumn(elevatorIndex * 2).setCellRenderer(ElevatorRenderer);
+        model.getColumn((liftNumber + 1) * 2).setCellRenderer(ElevatorRenderer);//1 3 5
     }
 }

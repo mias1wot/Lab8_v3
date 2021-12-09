@@ -3,12 +3,17 @@ package com.dreamteam.model;
 import java.util.*;
 
 public class Queue {
+    private Building building;
+    private int floor;
     private int liftIndex;
     private List<Passenger> passengers;
 
-    public Queue(int index){
-        liftIndex = index;
-        passengers = new ArrayList<>();
+    public Queue(Building building, int liftIndex, int floor){
+        this.building = building;
+        this.floor = floor;
+        this.liftIndex = liftIndex;
+//        passengers = new ArrayList<>();
+        passengers = Collections.synchronizedList(new ArrayList<>());
     }
 
     public int getLiftIndex() {
@@ -23,14 +28,22 @@ public class Queue {
         return passengers.size();
     }
 
+    public int getFloor(){return floor;}
+
     public void addToQueue(Passenger passenger) {
-        passengers.add(passenger);
+        synchronized (building) {
+            passengers.add(passenger);
+        }
     }
 
     public void getPassengersOnBoard(Lift lift) {
-        for (Passenger passenger : passengers) {
-            if (lift.addPassenger(passenger)) {
-                passengers.remove(passenger);
+        Passenger passenger;
+        synchronized (building) {
+            for(Iterator<Passenger> passengerIt = passengers.iterator(); passengerIt.hasNext();){
+                passenger = passengerIt.next();
+                if (lift.addPassenger(passenger)){
+                    passengerIt.remove();
+                }
             }
         }
     }

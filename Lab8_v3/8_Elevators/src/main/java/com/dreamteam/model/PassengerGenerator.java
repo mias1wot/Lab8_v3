@@ -35,7 +35,7 @@ class PassengerGenerator implements Runnable {
                 synchronized(building){
                     while((state == ThreadState.Paused)){
                         try{
-                            wait();
+                            building.wait();
                         }
                         catch(Exception e){
                             System.out.println(e);
