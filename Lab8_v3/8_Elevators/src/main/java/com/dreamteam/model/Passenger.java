@@ -11,23 +11,23 @@ public class Passenger {
         this.weight = weight;
     }
 
-    public boolean enterLift(Lift lift) {
+    public synchronized boolean enterLift(Lift lift) {
         return lift.addPassenger(this);
     }
 
-    public boolean leaveLift(int curFloor) {
+    public synchronized boolean leaveLift(int curFloor) {
         return neededFloor == curFloor;
     }
 
-    public int getNeededFloor() {
+    public synchronized int getNeededFloor() {
         return neededFloor;
     }
 
-    public double getWeight() {
+    public synchronized double getWeight() {
         return weight;
     }
 
-    public boolean equals(Object object) {
+    public synchronized boolean equals(Object object) {
         if (this == object) return true;
         if (object == null || getClass() != object.getClass()) return false;
         if (!super.equals(object)) return false;
@@ -40,7 +40,7 @@ public class Passenger {
         return true;
     }
 
-    public int hashCode() {
+    public synchronized int hashCode() {
         int result = super.hashCode();
         long temp;
         result = 31 * result + neededFloor;

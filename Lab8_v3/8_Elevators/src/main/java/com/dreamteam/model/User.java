@@ -35,6 +35,8 @@ import java.util.Timer;
 
 import javax.swing.*;
 
+import static java.awt.Frame.MAXIMIZED_BOTH;
+
 public class User{
     private static Building building;
 
@@ -49,6 +51,12 @@ public class User{
     private static void createAndShowGUI() {
         JFrame frame = new JFrame();
         var form  = new MainForm();
+
+        Insets scnMax = Toolkit.getDefaultToolkit().getScreenInsets(frame.getGraphicsConfiguration());
+        Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+        int taskBarSize = scnMax.bottom;
+        frame.setSize(screenSize.width, screenSize.height - taskBarSize);
+        frame.setExtendedState(MAXIMIZED_BOTH);
 
         form.getStartButton().addActionListener(new ActionListener() {
             @Override
@@ -66,7 +74,20 @@ public class User{
 
         form.getLiftSpeedSlider().addChangeListener(new ChangeListener() {
             public void stateChanged(ChangeEvent e) {
-                System.out.println("Slider2: " + form.getLiftSpeedSlider().getValue());
+                if(building != null);
+                int newSpeed = calculateSleepForLiftSpeed(form.getLiftSpeedSlider().getValue());
+                for(int i = 0; i < building.getCountLift(); i++) {
+                    building.setLiftSpeed(i, newSpeed);
+                }
+            }
+        });
+        form.getGenerationSpeedSlider().addChangeListener(new ChangeListener() {
+            public void stateChanged(ChangeEvent e) {
+                if(building != null);
+                int newSpeed = calculateSleepForGenerationSpeed(form.getGenerationSpeedSlider().getValue());
+                for(int i = 0; i < building.getCountFloor(); i++) {
+                    building.setPassengerGenerationSpeed(i, newSpeed);
+                }
             }
         });
 
@@ -83,17 +104,25 @@ public class User{
         form.getSpinnerElevatorAmount().setModel(new SpinnerNumberModel(5, 1, 10, 1));
 
         frame.setContentPane(form.getRootPanel());
-        frame.pack();
         frame.setVisible(true);
 
         observer = new Observer(form.getTable1());
     }
 
+    public static int calculateSleepForLiftSpeed(int speed){
+        final int maxSpeed = 101;
+//        final int multiplier = 10;
+        final int multiplier = 5;
+        return (maxSpeed - speed) * multiplier;
+    }
+    public static int calculateSleepForGenerationSpeed(int speed){
+        final int maxSpeed = 101;
+        final int multiplier = 20;
+        return (maxSpeed - speed) * multiplier;
+//        return 1000;
+    }
+
     private static void initOrResumeEmulation(MainForm form) {
-//        int liftSpeed = (int)form.getLiftSpeed().getValue();
-//        int generationSpeed = (int)form.getGenerationSpeed().getValue();
-//        System.out.println(liftSpeed);
-//        System.out.println(generationSpeed);
         if (working)
             resumeEmulation();
         else
@@ -101,15 +130,11 @@ public class User{
     }
 
     public static void initializeEmulation(MainForm form){
-        final int maxSpeed = 101;
-        final int multiplier = 50;
         //reads user input data
         int countLift = (int)form.getSpinnerElevatorAmount().getValue();
         int countFloors = (int)form.getSpinnerFloorAmount().getValue();
-        int liftSpeed = (maxSpeed - (int)form.getLiftSpeedSlider().getValue()) * multiplier;// the more the speed, the more is sleeps
-        int generationSpeed =(maxSpeed - (int)form.getGenerationSpeedSlider().getValue()) * multiplier;
-        System.out.println(liftSpeed);
-        System.out.println(generationSpeed);
+        int liftSpeed = calculateSleepForLiftSpeed((int)form.getLiftSpeedSlider().getValue());// the more the speed, the more is sleeps
+        int generationSpeed = calculateSleepForGenerationSpeed((int)form.getGenerationSpeedSlider().getValue());
 
         ArrayList<Integer> speedForEachLift = new ArrayList<>(countLift);
         ArrayList<Integer> passengerGenerationSpeedForEachFloor = new ArrayList<>(countFloors);
@@ -125,26 +150,6 @@ public class User{
         for (int i = 0; i < countFloors; ++i) {
             passengerGenerationSpeedForEachFloor.add(generationSpeed);
         }
-
-        //You need to read this from the form //todo
-//        countFloors = 5;
-//        countLift = 2;
-//        ArrayList<Integer> passengerGenerationSpeedForEachFloor = new ArrayList<Integer>(Arrays.asList(600, 600, 600, 600, 600));//passenger generation speed
-//        ArrayList<Integer>  speedForEachLift = new ArrayList<Integer>(Arrays.asList(400, 400));//speed for each lift
-//        ArrayList<Double> weightCapacityForEachLift = new ArrayList<Double>(Arrays.asList(Double.MAX_VALUE, Double.MAX_VALUE)); //weight capacity for each list
-//        ArrayList<Integer> passengersCapacityForEachLift = new ArrayList<Integer>(Arrays.asList(6, 4)); //passenger capacity of lifts
-//
-
-
-//        countFloors = 10;
-//                ArrayList<Integer> passengerGenerationSpeedForEachFloor =        new ArrayList<Integer>(Arrays.asList(5, 1, 1, 2, 3, 4, 4, 2, 2, 1));//passenger generation speed
-//                countLift = 5;
-//                ArrayList<Integer> strategiesNumbers =         new ArrayList<Integer>(Arrays.asList(1, 0, 1, 0, 1));//strategies num
-//                ArrayList<Integer>  speedForEachLift =        new ArrayList<Integer>(Arrays.asList(1000, 400, 500, 400, 500));//speed for each lift
-//                ArrayList<Double> weightCapacityForEachLift  =         new ArrayList<Double>(Arrays.asList(Double.MAX_VALUE, Double.MAX_VALUE, 1500.0, 1000.0, 1200.0)); //weight capacity for each list
-//                ArrayList<Integer> passengersCapacityForEachLift = new ArrayList<Integer>(Arrays.asList(9, 7, 4, 7, 5)); //passenger capacity of lifts
-
-
 
 
         clearTable(form);
@@ -241,5 +246,17 @@ public class User{
     public static Building getBuilding(){
         return building;
     }
+
+
+//    public void mock(){
+//        You need to read this from the form //if you're going to change smth, it's a good mock
+//        countFloors = 5;
+//        countLift = 2;
+//        ArrayList<Integer> passengerGenerationSpeedForEachFloor = new ArrayList<Integer>(Arrays.asList(600, 600, 600, 600, 600));//passenger generation speed
+//        ArrayList<Integer>  speedForEachLift = new ArrayList<Integer>(Arrays.asList(400, 400));//speed for each lift
+//        ArrayList<Double> weightCapacityForEachLift = new ArrayList<Double>(Arrays.asList(Double.MAX_VALUE, Double.MAX_VALUE)); //weight capacity for each list
+//        ArrayList<Integer> passengersCapacityForEachLift = new ArrayList<Integer>(Arrays.asList(6, 4)); //passenger capacity of lifts
+//
+//    }
 
 }

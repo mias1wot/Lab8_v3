@@ -16,27 +16,27 @@ public class Queue {
         passengers = Collections.synchronizedList(new ArrayList<>());
     }
 
-    public int getLiftIndex() {
+    public synchronized int getLiftIndex() {
         return liftIndex;
-    }
+    }//lift index is the same as queue index
 
-    public List<Passenger> getPassengers() {
+    public synchronized List<Passenger> getPassengers() {
         return passengers;
     }
 
-    public int getCount() {
+    public synchronized int getCount() {
         return passengers.size();
     }
 
-    public int getFloor(){return floor;}
+    public synchronized int getFloor(){return floor;}
 
-    public void addToQueue(Passenger passenger) {
+    public synchronized void addToQueue(Passenger passenger) {
         synchronized (building) {
             passengers.add(passenger);
         }
     }
 
-    public void getPassengersOnBoard(Lift lift) {
+    public synchronized void getPassengersOnBoard(Lift lift) {
         Passenger passenger;
         synchronized (building) {
             for(Iterator<Passenger> passengerIt = passengers.iterator(); passengerIt.hasNext();){
