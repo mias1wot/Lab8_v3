@@ -21,6 +21,8 @@ import com.dreamteam.view.MainForm;
 import lombok.SneakyThrows;
 
 import javax.swing.*;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -62,6 +64,12 @@ public class User{
             }
         });
 
+        form.getLiftSpeedSlider().addChangeListener(new ChangeListener() {
+            public void stateChanged(ChangeEvent e) {
+                System.out.println("Slider2: " + form.getLiftSpeedSlider().getValue());
+            }
+        });
+
         frame.addWindowListener(new WindowAdapter() {
             @Override
             public void windowClosing(WindowEvent we) {
@@ -82,6 +90,10 @@ public class User{
     }
 
     private static void initOrResumeEmulation(MainForm form) {
+//        int liftSpeed = (int)form.getLiftSpeed().getValue();
+//        int generationSpeed = (int)form.getGenerationSpeed().getValue();
+//        System.out.println(liftSpeed);
+//        System.out.println(generationSpeed);
         if (working)
             resumeEmulation();
         else
@@ -89,10 +101,30 @@ public class User{
     }
 
     public static void initializeEmulation(MainForm form){
+        final int maxSpeed = 101;
+        final int multiplier = 50;
         //reads user input data
         int countLift = (int)form.getSpinnerElevatorAmount().getValue();
         int countFloors = (int)form.getSpinnerFloorAmount().getValue();
+        int liftSpeed = (maxSpeed - (int)form.getLiftSpeedSlider().getValue()) * multiplier;// the more the speed, the more is sleeps
+        int generationSpeed =(maxSpeed - (int)form.getGenerationSpeedSlider().getValue()) * multiplier;
+        System.out.println(liftSpeed);
+        System.out.println(generationSpeed);
 
+        ArrayList<Integer> speedForEachLift = new ArrayList<>(countLift);
+        ArrayList<Integer> passengerGenerationSpeedForEachFloor = new ArrayList<>(countFloors);
+
+        ArrayList<Double> weightCapacityForEachLift = new ArrayList<>(countLift);
+        ArrayList<Integer> passengersCapacityForEachLift = new ArrayList<>(countLift);
+
+        for (int i = 0; i < countLift; ++i) {
+            speedForEachLift.add(generationSpeed);
+            weightCapacityForEachLift.add(Double.MAX_VALUE);
+            passengersCapacityForEachLift.add(10);
+        }
+        for (int i = 0; i < countFloors; ++i) {
+            passengerGenerationSpeedForEachFloor.add(generationSpeed);
+        }
 
         //You need to read this from the form //todo
 //        countFloors = 5;
@@ -104,13 +136,13 @@ public class User{
 //
 
 
-        countFloors = 10;
-                ArrayList<Integer> passengerGenerationSpeedForEachFloor =        new ArrayList<Integer>(Arrays.asList(5, 1, 1, 2, 3, 4, 4, 2, 2, 1));//passenger generation speed
-                countLift = 5;
-                ArrayList<Integer> strategiesNumbers =         new ArrayList<Integer>(Arrays.asList(1, 0, 1, 0, 1));//strategies num
-                ArrayList<Integer>  speedForEachLift =        new ArrayList<Integer>(Arrays.asList(1000, 400, 500, 400, 500));//speed for each lift
-                ArrayList<Double> weightCapacityForEachLift  =         new ArrayList<Double>(Arrays.asList(Double.MAX_VALUE, Double.MAX_VALUE, 1500.0, 1000.0, 1200.0)); //weight capacity for each list
-                ArrayList<Integer> passengersCapacityForEachLift = new ArrayList<Integer>(Arrays.asList(9, 7, 4, 7, 5)); //passenger capacity of lifts
+//        countFloors = 10;
+//                ArrayList<Integer> passengerGenerationSpeedForEachFloor =        new ArrayList<Integer>(Arrays.asList(5, 1, 1, 2, 3, 4, 4, 2, 2, 1));//passenger generation speed
+//                countLift = 5;
+//                ArrayList<Integer> strategiesNumbers =         new ArrayList<Integer>(Arrays.asList(1, 0, 1, 0, 1));//strategies num
+//                ArrayList<Integer>  speedForEachLift =        new ArrayList<Integer>(Arrays.asList(1000, 400, 500, 400, 500));//speed for each lift
+//                ArrayList<Double> weightCapacityForEachLift  =         new ArrayList<Double>(Arrays.asList(Double.MAX_VALUE, Double.MAX_VALUE, 1500.0, 1000.0, 1200.0)); //weight capacity for each list
+//                ArrayList<Integer> passengersCapacityForEachLift = new ArrayList<Integer>(Arrays.asList(9, 7, 4, 7, 5)); //passenger capacity of lifts
 
 
 
@@ -121,21 +153,21 @@ public class User{
         String strategy = Objects.requireNonNull(form.getComboBoxStrategy().getSelectedItem()).toString();
 
 
-//        List<Integer> strategiesNumbers = new ArrayList<>(countFloors * countLift);
+        List<Integer> strategiesNumbers = new ArrayList<>(countFloors * countLift);
 
 
         //sets strategies
-//        if(strategy.equals("Strategy A")){
-//            for (int i = 0; i < countLift; ++i) {
-//                strategiesNumbers.add(0);
-//            }
-//        }
-//
-//        if(strategy.equals("Strategy B")){
-//            for (int i = 0; i < countLift; ++i) {
-//                strategiesNumbers.add(1);
-//            }
-//        }
+        if(strategy.equals("Strategy A")){
+            for (int i = 0; i < countLift; ++i) {
+                strategiesNumbers.add(0);
+            }
+        }
+
+        if(strategy.equals("Strategy B")){
+            for (int i = 0; i < countLift; ++i) {
+                strategiesNumbers.add(1);
+            }
+        }
 
 
         BuildingManager buildingManager = new BuildingManager();

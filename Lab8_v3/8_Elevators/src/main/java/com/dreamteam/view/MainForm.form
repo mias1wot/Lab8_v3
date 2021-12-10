@@ -98,7 +98,7 @@
               <text value="Lift speed"/>
             </properties>
           </component>
-          <component id="50769" class="javax.swing.JSlider" binding="slider1" default-binding="true">
+          <component id="50769" class="javax.swing.JSlider" binding="liftSpeedSlider">
             <constraints>
               <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
             </constraints>
@@ -118,7 +118,7 @@
               <text value="Generation speed"/>
             </properties>
           </component>
-          <component id="f2657" class="javax.swing.JSlider" binding="slider2" default-binding="true">
+          <component id="f2657" class="javax.swing.JSlider" binding="generationSpeedSlider">
             <constraints>
               <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                 <preferred-size width="200" height="35"/>

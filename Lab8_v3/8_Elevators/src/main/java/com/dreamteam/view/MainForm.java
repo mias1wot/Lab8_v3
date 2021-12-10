@@ -13,14 +13,13 @@ public class MainForm {
     private JSpinner spinnerElevatorAmount;
     private JComboBox liftNum;
     private JComboBox comboBoxStrategy;
-    private JSlider liftSpeed;
+    private JSlider liftSpeedSlider;
     private JSlider generateSpeed;
     private JButton startButton;
     private JButton stopButton;
     private JPanel infoPanel;
-    private JSlider slider1;
-    private JSlider slider2;
     private JComboBox comboBox1;
+    private JSlider generationSpeedSlider;
 
     public JPanel getRootPanel() {
         return this.panel1;

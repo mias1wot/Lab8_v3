@@ -27,6 +27,7 @@ public class Logger{
 //        file.write(message,0,message.length());
     }
     public void close(){
-        file.close();
+        if(file != null)
+            file.close();
     }
 }

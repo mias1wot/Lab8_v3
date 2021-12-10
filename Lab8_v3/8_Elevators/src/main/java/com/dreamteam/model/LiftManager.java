@@ -17,7 +17,6 @@ public class LiftManager implements Runnable {
     private PropertyChangeSupport support;//not needed
 
     public LiftManager(Building building, Lift lift, PropertyChangeListener listener){
-        System.out.println("lift manager: " + lift.getNumber());
         this.building = building;
         this.lift = lift;
         logger = Logger.getInstance();
@@ -47,7 +46,7 @@ public class LiftManager implements Runnable {
 
     //methods
     public void run(){
-        System.out.println("lift manager: " + lift.getNumber() + ", state: " + state);
+//        System.out.println("lift manager: " + lift.getNumber() + ", state: " + state);
         int initFloor;
         int initPassengers;
         int remainingPassengers;
@@ -65,8 +64,6 @@ public class LiftManager implements Runnable {
 
 
             while (state == ThreadState.Working && (lift.getCurPassengersCount() != 0 || !floorsWithWaitingPassengersQueue.isEmpty())){
-                if(lift.getNumber() == 1)
-                    System.out.println("I'm working");
                 initPassengers = lift.getCurPassengersCount();
                 lift.freePassengers();
                 remainingPassengers = lift.getCurPassengersCount();
@@ -74,8 +71,6 @@ public class LiftManager implements Runnable {
                     logger.log(lift.getNumber(), lift.getFloor(), (initPassengers - remainingPassengers) + " passengers left the lift. " + remainingPassengers + " passengers remain in the lift.");
 
                 initPassengers = remainingPassengers;
-                if(lift.getNumber() == 1)
-                    System.out.println("Prepare to pick");
                 liftStrategy.pickPassengers();
                 remainingPassengers = lift.getCurPassengersCount();
                 if(initPassengers != remainingPassengers)
@@ -94,7 +89,7 @@ public class LiftManager implements Runnable {
             }
             //if you want, you can leave sleep() here
         }
-        System.out.println(lift.getNumber() + " ended their work");
+//        System.out.println(lift.getNumber() + " ended their work");
     }
 
     public synchronized void addFloorCall(int floor){
